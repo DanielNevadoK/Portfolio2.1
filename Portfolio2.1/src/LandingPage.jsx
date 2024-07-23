@@ -10,7 +10,7 @@ function LandingPage() {
         <h1 className="mini-title">Kröger</h1>
       </div>
       <div className="landing-page-pic">
-        <img src="../public/Img/No_bg.png" alt="Daniel" />
+        <img src="/Img/No_bg.png" alt="Daniel" />
       </div>
     </div>
   );
