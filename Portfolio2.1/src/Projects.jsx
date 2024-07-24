@@ -4,10 +4,10 @@ import "./App.css";
 function Projects() {
   return (
     <div id="projects-page">
-      <div>
+      <div className="project-title">
         <h2>PROJECTS</h2>
       </div>
-      <div>
+      <div className="project-wrapper">
         <section id="project-section1">
           <div className="small-project-card">
             <a href="#">
