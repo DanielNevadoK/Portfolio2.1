@@ -10,26 +10,50 @@ function Projects() {
       <div className="project-wrapper">
         <section id="project-section1">
           <div className="small-project-card">
-            <a href="#">
-              <img src="" alt="" />
-            </a>
+            <div className="small-img-container">
+              <a href="#">
+                <img src="" alt="" />
+              </a>
+            </div>
+            <div className="description-container">
+              <p>Project title here</p>
+              <p>Project work here</p>
+            </div>
           </div>
           <div className="medium-project-card">
-            <a href="#">
-              <img src="" alt="" />
-            </a>
+            <div className="medium-img-container">
+              <a href="#">
+                <img src="" alt="" />
+              </a>
+            </div>
+            <div className="description-container">
+              <p>Project title here</p>
+              <p>Project work here</p>
+            </div>
           </div>
         </section>
         <section id="project-section2">
           <div className="medium-project-card">
-            <a href="#">
-              <img src="" alt="" />
-            </a>
+            <div className="medium-img-container">
+              <a href="#">
+                <img src="" alt="" />
+              </a>
+            </div>
+            <div className="description-container">
+              <p>Project title here</p>
+              <p>Project work here</p>
+            </div>
           </div>
           <div className="small-project-card">
-            <a href="#">
-              <img src="" alt="" />
-            </a>
+            <div className="small-img-container">
+              <a href="#">
+                <img src="" alt="" />
+              </a>
+            </div>
+            <div className="description-container">
+              <p>Project title here</p>
+              <p>Project work here</p>
+            </div>
           </div>
         </section>
       </div>
