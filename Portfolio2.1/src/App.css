@@ -30,24 +30,49 @@
   );
   align-items: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   position: relative;
+}
+.header {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: end;
+  padding: 20px 35px;
+  z-index: 98;
+}
+.header button {
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.header button:hover {
+  cursor: pointer;
+}
+.head-btn1,
+.head-btn2 {
+  padding: 0 20px;
 }
 
 .landing-page-pic {
   max-width: 1350px;
   overflow: hidden;
   align-items: center;
-  z-index: 99; 
-  position: absolute; 
+  z-index: 99;
+  position: absolute;
   top: 68%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .landing-page-pic img {
-  max-width: 110%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -64,7 +89,7 @@
   font-family: "Fugaz One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 380px;
+  font-size: 360px;
   z-index: 1;
   position: absolute;
   top: 37%;
@@ -79,34 +104,33 @@
   font-family: "Fugaz One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 90px;
+  font-size: 85px;
   z-index: 1;
   position: absolute;
   top: 37%;
   left: 50%;
 }
 .mini-title1 {
-  top: 22%;
+  top: 23%;
   left: 41%;
   transform: translate(-50%, -50%);
-
 }
 .mini-title2 {
-  bottom: 12%;
+  bottom: 14%;
   transform: translate(90%, -3%);
 }
 
-.job-title{
-    font-family: "Pattaya", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    align-self: center;
-    z-index: 100;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
+.job-title {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  align-self: center;
+  z-index: 100;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* //PROJECTS// */
