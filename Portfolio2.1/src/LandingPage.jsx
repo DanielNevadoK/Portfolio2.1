@@ -4,7 +4,7 @@ import Header from "./Header";
 
 function LandingPage() {
   return (
-    <div className="landing-page">
+    <div id="landing-page">
       <Header />
       <div className="title-container">
         <div className="title-wrapper">

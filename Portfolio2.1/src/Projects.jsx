@@ -3,7 +3,7 @@ import "./App.css";
 
 function Projects() {
   return (
-    <div className='projects-page'>
+    <div id='projects-page'>
       Projects
     </div>
   )
