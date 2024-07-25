@@ -12,23 +12,23 @@ function Projects() {
           <div className="small-project-card">
             <div className="small-img-container">
               <a href="#">
-                <img src="" alt="" />
+                <img src="./Img/bagel_street_cafe.png" alt="Bagel Street Cafe" />
               </a>
             </div>
             <div className="description-container">
-              <p>Project title here</p>
-              <p>Project work here</p>
+              <p className="project-title">Bagel Street Café</p>
+              <p className="project-work" >UX/UI</p>
             </div>
           </div>
           <div className="medium-project-card">
             <div className="medium-img-container">
               <a href="#">
-                <img src="" alt="" />
+                <img src="/Img/Peluceria.png" alt="" />
               </a>
             </div>
             <div className="description-container">
-              <p>Project title here</p>
-              <p>Project work here</p>
+              <p className="project-title">Bagel Street Café</p>
+              <p className="project-work">UX/UI</p>
             </div>
           </div>
         </section>
@@ -36,23 +36,23 @@ function Projects() {
           <div className="medium-project-card">
             <div className="medium-img-container">
               <a href="#">
-                <img src="" alt="" />
+                <img src="/Img/Peluceria.png" alt="" />
               </a>
             </div>
             <div className="description-container">
-              <p>Project title here</p>
-              <p>Project work here</p>
+              <p className="project-title">Bagel Street Café</p>
+              <p className="project-work">UX/UI</p>
             </div>
           </div>
           <div className="small-project-card">
             <div className="small-img-container">
               <a href="#">
-                <img src="" alt="" />
+                <img src="./Img/bagel_street_cafe.png" alt="" />
               </a>
             </div>
             <div className="description-container">
-              <p>Project title here</p>
-              <p>Project work here</p>
+              <p className="project-title">Bagel Street Café</p>
+              <p className="project-work">UX/UI</p>
             </div>
           </div>
         </section>
