@@ -27,7 +27,7 @@ function Projects() {
               </a>
             </div>
             <div className="description-container">
-              <p className="project-title">Bagel Street Café</p>
+              <p className="project-card-title">Bagel Street Café</p>
               <p className="project-work">UX/UI</p>
             </div>
           </div>

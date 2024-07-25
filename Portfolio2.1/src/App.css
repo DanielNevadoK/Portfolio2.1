@@ -146,6 +146,7 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 1rem 2rem;
   font-size: 90px;
   margin: 0;
 }
@@ -192,6 +193,12 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.description-container p{
+  font-family: "Akshar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
 }
 
 .small-img-container,
