@@ -214,6 +214,9 @@
   max-width: 100%;
   height: auto;
 }
+.medium-img-container img{
+  width: fill-content;
+}
 
 .description-container {
   align-items: flex-start;
