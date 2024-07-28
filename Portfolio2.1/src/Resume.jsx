@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import { FaLinkedin } from "react-icons/fa6";
+
 
 function Resume() {
   return (
@@ -11,7 +13,7 @@ function Resume() {
         <div className="work-container">
           <div className="mini-work-title">
             <h3>WORK EXPERIENCE</h3>
-            <img src="" alt="SVG LinkedIn" />
+            <FaLinkedin size="29"/>
           </div>
           <div className="experience-container">
             <div className="work_title">
