@@ -13,7 +13,8 @@ function Resume() {
         <div className="work-container">
           <div className="mini-work-title">
             <h3>WORK EXPERIENCE</h3>
-            <FaLinkedin size="29"/>
+           <a href="https://www.linkedin.com/in/danielnevadokroger/" target="_blank">
+           <FaLinkedin size="29"/></a>
           </div>
           <div className="experience-container">
             <div className="work_title">
