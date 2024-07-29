@@ -269,6 +269,7 @@ a {
   flex-direction: row;
   gap: 20px;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .mini-work-title h3 {
@@ -296,16 +297,10 @@ a {
   gap: 20px;
 }
 
-.work_title,
-.work_date,
-.work_company {
-  margin-top: 0rem;
-}
 .work_title p,
 .work_date p,
 .work_company p {
-  margin-top: 0.7rem;
-  gap: 50px;
+  margin: 0.5rem;
 }
 .work_date p,
 .SS-number p {
@@ -313,10 +308,14 @@ a {
 }
 
 .resume-bottom-wrapper {
-  border: dashed 2px red;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
+}
+.skills-wrp-container {
+  display: flex;
+  padding-top: 2rem;
 }
 .cv-container,
 .skills-container,
@@ -327,8 +326,14 @@ a {
 .resume-title2 {
   min-width: 25%;
 }
-.skills-container {
-  min-width: 50%;
+.skills-container,
+.skills-wrp1 {
+  min-width: 49%;
+  gap: 2rem;
+}
+.skills-wrp2,
+.skills-wrp3 {
+  width: 50%;
 }
 .language-interest-container {
   display: flex;
