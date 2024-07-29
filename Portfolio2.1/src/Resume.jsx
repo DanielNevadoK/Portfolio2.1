@@ -61,39 +61,45 @@ function Resume() {
           </div>
         </div>
         <div className="skills-container">
-          <div className="skills-wrp1">
-            <div className="mini-work-title">
-              <h3>SOFT SKILLS</h3>
-              <a href="https://github.com/DanielNevadoK" target="_blank">
-                <BiLogoGithub size="29" />
-              </a>
+          <div className="first-skills-wrp-container">
+            <div className="skills-wrp2">
+              <div className="mini-work-title">
+                <h3>SOFT SKILLS</h3>
+                <a href="https://github.com/DanielNevadoK" target="_blank">
+                  <BiLogoGithub size="29" />
+                </a>
+              </div>
+              <div className="soft-skills">
+                <div className="SS-number">
+                  <p>01</p>
+                  <p>02</p>
+                  <p>03</p>
+                  <p>04</p>
+                  <p>05</p>
+                </div>
+                <div className="SS-title">
+                  <p>JavaScript</p>
+                  <p>TypeScript</p>
+                  <p>React</p>
+                  <p>HTML</p>
+                  <p>CSS</p>
+                </div>
+              </div>
             </div>
-            <div className="soft-skills">
-              <div className="SS-number">
-                <p>01</p>
-                <p>02</p>
-                <p>03</p>
-                <p>04</p>
-                <p>05</p>
-              </div>
-              <div className="SS-title">
-                <p>JavaScript</p>
-                <p>TypeScript</p>
-                <p>React</p>
-                <p>HTML</p>
-                <p>CSS</p>
-              </div>
-              <div className="SS-number">
-                <p>06</p>
-                <p>07</p>
-                <p>08</p>
-                <p>09</p>
-              </div>
-              <div className="SS-title">
-                <p>UX/UI</p>
-                <p>Git/GitHub</p>
-                <p>Figma</p>
-                <p>PhotoShop</p>
+            <div className="skills-wrp2">
+              <div className="soft-skills-section2">
+                <div className="SS-number">
+                  <p>06</p>
+                  <p>07</p>
+                  <p>08</p>
+                  <p>09</p>
+                </div>
+                <div className="SS-title">
+                  <p>UX/UI</p>
+                  <p>Git/GitHub</p>
+                  <p>Figma</p>
+                  <p>PhotoShop</p>
+                </div>
               </div>
             </div>
           </div>
