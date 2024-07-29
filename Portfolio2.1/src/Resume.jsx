@@ -55,8 +55,8 @@ function Resume() {
                 <FaFileDownload size={29} />
               </a>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="cv-img-container">
+              <img src="Img/Daniel_Nevado_Kroger.jpg" alt="CV-Profile-IMG" />
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ function Resume() {
             </div>
             <div className="skills-wrp2">
               <div className="mini-work-title">
-                <h3>LANGUAGE SKILLS</h3>
+                <h3>INTEREST</h3>
               </div>
               <div className="soft-skills">
                 <div className="SS-number">
@@ -144,7 +144,9 @@ function Resume() {
             </div>
           </div>
         </div>
-        <div className="resume-title2"></div>
+        <div className="resume-aside-title2">
+          <h2>RESUME</h2>
+        </div>
       </section>
     </div>
   );
