@@ -7,7 +7,7 @@ function Header() {
         <a href="#projects-page">Projects</a>
       </button>
       <button className="head-btn2">
-        <a href="#resume">About me</a>
+        <a href="#resume-page">About me</a>
       </button>
     </div>
   );

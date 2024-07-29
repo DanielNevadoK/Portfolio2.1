@@ -232,7 +232,8 @@ a {
 #resume-page {
   width: 100%;
   height: 100svh;
-  background-color: #03131B;
+  padding: 0 2rem;
+  background-color: #03131b;
 }
 
 .resume-top-wrapper {
@@ -245,32 +246,29 @@ a {
 .resume-title {
   width: 50%;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .resume-title h2 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 19vw;
+  font-size: 18.5vw;
   line-height: 1;
-  margin: 0; 
   letter-spacing: 5px;
-  text-align: center; 
+  text-align: center;
 }
 .work-container {
   width: 50%;
   padding: 2rem 0;
 }
 
-.mini-work-title{
+.mini-work-title {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  align-items: center;  
+  align-items: center;
 }
 
 .mini-work-title h3 {
@@ -281,7 +279,10 @@ a {
   display: flex;
   align-items: center;
 }
-.experience-container p {
+.experience-container p,
+.skills-container p,
+.cv-container,
+.resume-title2 {
   font-family: "Akshar", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -289,16 +290,55 @@ a {
   font-size: 21px;
   letter-spacing: 2px;
 }
-.experience-container {
+.experience-container,
+.soft-skills {
   display: flex;
   gap: 20px;
 }
 
-
-.work_title, .work_date, .work_company{
+.work_title,
+.work_date,
+.work_company {
   margin-top: 0rem;
 }
-.work_title p, .work_date p, .work_company p{
+.work_title p,
+.work_date p,
+.work_company p {
   margin-top: 0.7rem;
   gap: 50px;
+}
+.work_date p,
+.SS-number p {
+  font-weight: 500;
+}
+
+.resume-bottom-wrapper {
+  border: dashed 2px red;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.cv-container,
+.skills-container,
+.resume-title2 {
+  border: dashed 2px red;
+}
+.cv-container,
+.resume-title2 {
+  min-width: 25%;
+}
+.skills-container {
+  min-width: 50%;
+}
+.language-interest-container {
+  display: flex;
+}
+.SS-number {
+  margin-right: 1rem;
+}
+.SS-title {
+  margin-right: 6rem;
+}
+.SS-title2 {
+  margin-left: -5rem;
 }
