@@ -3,8 +3,6 @@ import "./App.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowUp } from "react-icons/fa6";
 
-
-
 function Contact() {
   return (
     <div id="contact-page">
@@ -17,13 +15,19 @@ function Contact() {
             </a>
           </address>
           <address className="LinkedIn-container">
-            <a href="https://www.linkedin.com/in/danielnevadokroger/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/danielnevadokroger/"
+              target="_blank"
+            >
               <p>LinkedIn</p>
               <FaArrowRightLong />
             </a>
           </address>
           <address className="discord-container">
-            <a href="https://discordapp.com/channels/@me/878175128633114654/" target="_blank">  
+            <a
+              href="https://discordapp.com/channels/@me/878175128633114654/"
+              target="_blank"
+            >
               <p>Discord</p>
               <FaArrowRightLong />
             </a>
@@ -35,7 +39,7 @@ function Contact() {
         <div className="back-to-top">
           <a href="#landing-page">
             <p>Back to top</p>
-            <FaArrowUp size={25}/>
+            <FaArrowUp size={25} />
           </a>
         </div>
         <div className="copy-right">
