@@ -414,3 +414,67 @@ a {
   padding: 0;
   color: #031a24;
 }
+
+
+/* // CONTACT PAGE // */
+#contact-page {
+  width: 100%;
+  height: 100svh;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-links-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
+}
+
+.email-container a,
+.LinkedIn-container a,
+.discord-container a,
+.back-to-top a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Akshar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 32px;
+  position: relative;
+  z-index: 2; 
+}
+.email-container a,
+.LinkedIn-container a,
+.discord-container a{
+  margin-bottom: -80%;
+}
+.contact-title{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20vw;
+  letter-spacing: 2rem;
+  margin: -2rem;
+  position: relative;
+  z-index: 0;
+}
+.copy-right p{
+  font-family: "Akshar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
