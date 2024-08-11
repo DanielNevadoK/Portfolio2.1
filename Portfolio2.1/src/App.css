@@ -17,6 +17,8 @@ a {
   font-style: normal;
 }
 
+
+
 /* //LANDING PAGE// */
 #landing-page {
   width: 100%;
@@ -35,13 +37,77 @@ a {
   overflow: hidden;
   position: relative;
 }
+
+.header{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+  
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+  transform: translateY(-100%);
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
 .header {
   width: 100%;
   background: transparent;
   display: flex;
   justify-content: end;
   padding: 20px 35px;
-  z-index: 98;
+  position: sticky;
+  width: 100%; /* Ensure the header takes the full width */
+  z-index: 1000; /* Make sure the header is above other content */
 }
 .header button {
   background-color: transparent;
@@ -61,6 +127,7 @@ a {
 }
 
 .landing-page-pic {
+  animation: fade-in 1s ease-in-out 1s forwards;
   max-width: 1350px;
   overflow: hidden;
   align-items: center;
@@ -69,6 +136,7 @@ a {
   top: 68%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0;
 }
 .landing-page-pic img {
   max-width: 100%;
@@ -81,6 +149,19 @@ a {
   height: 100svh;
   display: flex;
   flex-direction: column;
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%) translate(-50%, -50%);
+  }
+  to {
+    transform: translateX(0%) translate(-50%, -50%); 
+  }
+}
+
+
+.page-title {
+  animation: slide-in 2s ease;
 }
 
 .page-title {
@@ -95,9 +176,19 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
 
 .mini-title1,
 .mini-title2 {
+  animation: fade-in 1.5s ease-in-out 1s forwards;
   align-self: center;
   font-family: "Fugaz One", sans-serif;
   font-weight: 400;
@@ -105,7 +196,9 @@ a {
   font-size: 85px;
   z-index: 1;
   position: absolute;
+  opacity: 0;
 }
+
 .mini-title1 {
   top: 19%;
   left: 44%;
@@ -118,6 +211,7 @@ a {
 }
 
 .job-title {
+  animation: fade-in 1.5s ease-in-out 1s forwards;
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -128,6 +222,7 @@ a {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 /* //PROJECTS// */
