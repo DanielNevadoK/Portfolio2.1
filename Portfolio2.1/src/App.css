@@ -573,3 +573,38 @@ a {
   font-style: normal;
   font-size: 16px;
 }
+
+/************ TABLET **************/
+@media (min-width: 768px) and (max-width: 1024px){
+.landing-page-pic {
+  max-width: 1350px;
+  overflow: hidden;
+  align-items: center;
+  z-index: 99;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+}
+.landing-page-pic img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.page-title {
+  font-size: 28vw;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mini-title1 {
+  font-size: 8vw;
+  top: 13%;
+}
+.mini-title2 {
+  font-size: 8vw;
+  top: 27%;
+  left: 44%;
+  transform: translate(76%, -10%);
+}
+}
