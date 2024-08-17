@@ -662,11 +662,11 @@ a {
     height: 100svh;
   }
   .landing-page-pic {
-    top: 80%;
+    top: 75%;
     left: 54%;
   }
   .landing-page-pic {
-    width: 200%;
+    width: 190%;
   }
   .page-title {
     font-size: 27vw;
@@ -674,11 +674,11 @@ a {
   }
   .mini-title1 {
     font-size: 8vw;
-    top: 19%;
+    top: 18%;
   }
   .mini-title2 {
     font-size: 8vw;
-    top: 27%;
+    top: 29%;
     right: 33%;
   }
   .job-title {
