@@ -604,7 +604,7 @@ a {
     height: auto;
   }
   .medium-img-container img {
-    width: 50vw;
+    width: 100%;
   }
   .contact-wrapper {
     margin-top: -75%;
