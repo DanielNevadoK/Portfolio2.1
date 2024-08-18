@@ -671,7 +671,7 @@ a {
     overflow: hidden;
   }
   .landing-page-pic img {
-    height: 1000px;
+    height: 1100px;
   }
   .page-title {
     font-size: 27vw;
@@ -719,11 +719,6 @@ a {
     width: 100vw;
     height: auto;
   }
-  /* .small-img-container,
-  .medium-img-container {
-    width: 100%;
-    height: auto;
-  } */
 
   .contact-wrapper {
     margin-top: -75%;
@@ -746,7 +741,7 @@ a {
     margin-bottom: 0%;
   }
   .contact-title {
-    font-size: 16vw;
+    font-size: 10vw;
   }
   .copy-right p {
     font-family: "Akshar", sans-serif;
