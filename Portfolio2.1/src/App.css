@@ -590,7 +590,7 @@ a {
   }
   .small-project-card img,
   .medium-project-card img {
-    width: 50vw;
+    width: 100%;
     height: auto;
   }
   .small-img-container,
@@ -602,9 +602,6 @@ a {
   .small-img-container img {
     max-width: 100%;
     height: auto;
-  }
-  .medium-img-container img {
-    width: 100%;
   }
   .contact-wrapper {
     margin-top: -75%;
@@ -627,7 +624,7 @@ a {
     margin-bottom: 0%;
   }
   .contact-title {
-    font-size: 16vw;
+    font-size: 14vw;
   }
   .copy-right p {
     font-family: "Akshar", sans-serif;
