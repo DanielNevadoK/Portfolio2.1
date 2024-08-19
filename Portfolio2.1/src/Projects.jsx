@@ -31,8 +31,6 @@ function Projects() {
               <p className="project-work">UX/UI</p>
             </div>
           </div>
-        </section>
-        <section id="project-section2">
           <div className="medium-project-card">
             <div className="medium-img-container">
               <a href="#">
