@@ -623,14 +623,18 @@ a {
     font-style: normal;
     font-size: 16px;
   }
-  .cv-container{
+  .work-container{
+
     width: 100%;
+  }
+  .cv-container{
+    width: 50%;
     max-height: 550px;
     padding: 1rem;
   }
   
   .cv-card {
-    width: 100%;
+    width: 50%;
     height: 100%;
   }
   .cv-img-container {
@@ -700,6 +704,7 @@ a {
   }
   .small-project-card,
   .medium-project-card {
+    width: 100%;
     height: auto;
   }
   .small-project-card img,
