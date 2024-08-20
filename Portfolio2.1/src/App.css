@@ -623,6 +623,10 @@ a {
   .contact-title {
     font-size: 12vw;
   }
+  .contact-title h2{
+    letter-spacing: normal;
+  }
+
   .copy-right p {
     font-family: "Akshar", sans-serif;
     font-optical-sizing: auto;
@@ -631,7 +635,6 @@ a {
     font-size: 16px;
   }
   .work-container{
-
     width: 100%;
   }
   .cv-container{
