@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 a {
   color: inherit;
@@ -528,6 +529,12 @@ a {
   margin: -2rem;
   position: relative;
   z-index: 0;
+}
+.btm-conatct-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
 }
 .copy-right p {
   font-family: "Akshar", sans-serif;
