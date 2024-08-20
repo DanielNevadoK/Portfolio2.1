@@ -761,7 +761,7 @@ a {
   .LinkedIn-container p,
   .discord-container p,
   .back-to-top p {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .email-container a,
   .LinkedIn-container a,
@@ -779,14 +779,24 @@ a {
   .contact-title {
     font-size: 20vw;
     letter-spacing: 0;
-    margin-bottom: 50%;
+  }
+  .btm-conatct-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 50%;
   }
   .copy-right p {
     font-family: "Akshar", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 16px;
+    font-size: 13px;
+  }
+  .arrow svg{
+    width: 0.7em;
+    height: 0.7em;
   }
   .cv-container{
     width: 100%;
