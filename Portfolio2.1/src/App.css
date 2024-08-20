@@ -551,6 +551,7 @@ a {
     height: 100vh;
     width: 100%;
   }
+
   .landing-page-pic {
     max-width: 1350px;
     overflow: hidden;
@@ -560,37 +561,44 @@ a {
     position: absolute;
     top: 68%;
     left: 50%;
+    transform: translateX(-50%); /* Ensure it's centered */
+    width: 60%; /* Adjusted to make sure it fits within the screen */
   }
-  .landing-page-pic {
-    width: 60%;
-  }
+
   .page-title {
-    font-size: 24vw;
-    top: 40%;
+    font-size: 20vw; /* Reduced font size */
+    top: 30%; /* Adjusted to fit better */
   }
+
   .mini-title1 {
-    font-size: 6vw;
-    top: 28%;
+    font-size: 5vw; /* Reduced font size */
+    top: 25%; /* Adjusted to fit better */
   }
+
   .mini-title2 {
-    font-size: 6vw;
-    top: 53%;
+    font-size: 5vw; /* Reduced font size */
+    top: 50%; /* Adjusted to fit better */
   }
+
   .job-title {
-    font-size: 6vw;
+    font-size: 5.5vw; /* Reduced font size */
   }
+
   .project-title h2 {
-    font-size: 8vw;
+    font-size: 7vw; /* Adjusted font size */
   }
+
   .small-project-card,
   .medium-project-card {
     height: auto;
   }
+
   .small-project-card img,
   .medium-project-card img {
     width: 100%;
     height: auto;
   }
+
   .small-img-container,
   .medium-img-container {
     width: 100%;
@@ -601,8 +609,9 @@ a {
     max-width: 100%;
     height: auto;
   }
+
   .contact-wrapper {
-    margin-top: -75%;
+    margin-top: -50%; /* Adjusted to avoid overlap */
   }
 
   .contact-links-container {
@@ -614,17 +623,20 @@ a {
   .LinkedIn-container p,
   .discord-container p,
   .back-to-top p {
-    font-size: 3vw;
+    font-size: 2.5vw; /* Adjusted font size */
   }
+
   .email-container a,
   .LinkedIn-container a,
   .discord-container a {
     margin-bottom: 0%;
   }
+
   .contact-title {
-    font-size: 12vw;
+    font-size: 10vw; /* Reduced font size */
   }
-  .contact-title h2{
+
+  .contact-title h2 {
     letter-spacing: normal;
   }
 
@@ -633,31 +645,35 @@ a {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px; /* Reduced font size */
   }
-  .work-container{
+
+  .work-container {
     width: 100%;
   }
-  .cv-container{
-    width: 50%;
+
+  .cv-container {
+    width: 100%; /* Adjusted to take full width */
     max-height: 550px;
     padding: 1rem;
   }
-  
+
   .cv-card {
-    width: 50%;
-    height: 100%;
+    width: 100%; /* Adjusted to take full width */
+    height: auto;
   }
+
   .cv-img-container {
     width: 100%;
-    height: 250px;
+    height: auto; /* Adjusted to auto */
   }
-  
+
   .cv-img-container img {
     width: 100%;
-    height: 100%;
+    height: auto; /* Maintain aspect ratio */
   }
 }
+
 
 /******** PHONE *********/
 @media (min-width: 390px) and (max-width: 768px) {
