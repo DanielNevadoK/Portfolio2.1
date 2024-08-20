@@ -785,7 +785,7 @@ a {
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
-    margin-top: 50%;
+    margin-top: 20px;
   }
   .copy-right p {
     font-family: "Akshar", sans-serif;
