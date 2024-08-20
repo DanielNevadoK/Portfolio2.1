@@ -779,7 +779,7 @@ a {
   .contact-title {
     font-size: 20vw;
     letter-spacing: 0;
-
+    margin-bottom: 50%;
   }
   .copy-right p {
     font-family: "Akshar", sans-serif;
