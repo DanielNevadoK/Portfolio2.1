@@ -477,7 +477,7 @@ a {
 /* // CONTACT PAGE // */
 #contact-page {
   width: 100%;
-  height: 100svh;
+  height: 100dvh;
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
