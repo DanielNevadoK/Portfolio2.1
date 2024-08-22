@@ -47,7 +47,7 @@ function Resume() {
           <div className="first-skills-wrp-container">
             <div className="skills-wrp2">
               <div className="mini-work-title">
-                <h3>SOFT SKILLS</h3>
+                <h3>SKILLS</h3>
                 <a href="https://github.com/DanielNevadoK" target="_blank">
                   <BiLogoGithub size="29" />
                 </a>

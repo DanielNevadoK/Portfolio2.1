@@ -277,7 +277,6 @@ a {
   margin-bottom: 2rem; /* Add some margin for spacing */
 }
 
-
 .description-container {
   display: flex;
   flex-direction: column;
@@ -335,7 +334,7 @@ a {
   padding: 2rem 0;
 }
 
-.resume-title h2{
+.resume-title h2 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -417,7 +416,7 @@ a {
   min-width: 50%;
   justify-content: space-evenly;
 }
-.cv-container{
+.cv-container {
   width: 50%;
   padding: 2rem;
 }
@@ -531,7 +530,7 @@ a {
   position: relative;
   z-index: 0;
 }
-.btm-conatct-container{
+.btm-conatct-container {
   display: flex;
   flex-direction: column;
   justify-content: baseline;
@@ -545,11 +544,11 @@ a {
   font-size: 16px;
 }
 
-@media(max-width: 2560px) {
-  #landing-page{
+@media (max-width: 2560px) {
+  #landing-page {
     max-width: 2560px;
   }
-  .page-title{
+  .page-title {
     font-size: 25vw;
   }
   .mini-title1 {
@@ -557,34 +556,32 @@ a {
     font-size: 7vw;
   }
   .mini-title2 {
-    top: 52%; 
+    top: 52%;
     font-size: 7vw;
     left: 45%;
-
   }
- .job-title{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 6vw;
- }
-
+  .job-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vw;
+  }
 }
-@media(max-width: 1440px) {
-  #landing-page{
+@media (max-width: 1440px) {
+  #landing-page {
     max-width: 1440px;
   }
   .page-title {
-    font-size: 23vw; 
-    top: 35%; 
+    font-size: 23vw;
+    top: 35%;
   }
 
   .mini-title1 {
     top: 19%;
   }
   .mini-title2 {
-    top: 52%; 
+    top: 52%;
   }
 }
 @media (max-width: 1024px) {
@@ -596,28 +593,28 @@ a {
   .landing-page-pic {
     top: -10%;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
     width: 70%;
   }
   .page-title {
-    font-size: 25vw; 
-    top: 35%; 
+    font-size: 25vw;
+    top: 35%;
   }
 
   .mini-title1 {
-    font-size: 6vw; 
+    font-size: 6vw;
     top: 22%;
   }
   .mini-title2 {
-    font-size: 6vw; 
-    top: 49%; 
+    font-size: 6vw;
+    top: 49%;
   }
 
   .job-title {
-    font-size: 5.5vw; 
+    font-size: 5.5vw;
   }
   .project-title h2 {
-    font-size: 7vw; 
+    font-size: 7vw;
   }
 
   .small-project-card,
@@ -641,7 +638,7 @@ a {
     max-width: 100%;
     height: auto;
   }
-  #resume-page{
+  #resume-page {
     max-width: 1024px;
   }
   .work-container {
@@ -650,77 +647,78 @@ a {
   .work_date {
     width: 22%;
   }
-  .work_title{
+  .work_title {
     width: 50%;
   }
-  .work_title p, .work_date p, .work_company p{
+  .work_title p,
+  .work_date p,
+  .work_company p {
     font-size: 1.5vw;
   }
   .cv-container {
-    width: 30%; 
+    width: 30%;
     padding: 2rem 1rem;
   }
-  .resume-bottom-wrapper{
+  .resume-bottom-wrapper {
     justify-content: space-between;
   }
-  
+
   .cv-card {
-    width: 100%; 
+    width: 100%;
   }
-  
+
   .cv-img-container {
     width: 100%;
-    height: auto; 
+    height: auto;
   }
   .cv-img-container img {
     width: 100%;
-    height: auto; 
+    height: auto;
   }
-  .contact-page{
+  .contact-page {
     max-width: 1024px;
   }
-    .contact-wrapper {
-      margin-top: 0%; 
-      width: 100%;
-    }
-  
-    .contact-links-container {
-      padding: 2rem;
-      width: 100%;
-    }
-  
-    .email-container p,
-    .LinkedIn-container p,
-    .discord-container p,
-    .back-to-top p {
-      font-size: 2.5vw; 
-    }
-  
-    .email-container a,
-    .LinkedIn-container a,
-    .discord-container a {
-      margin-bottom: 0%;
-    }
-  
-    .contact-title {
-      font-size: 20vw;
-    }
-  
-    .contact-title h2 {
-      letter-spacing: normal;
-    }
-  
-    .copy-right p {
-      font-family: "Akshar", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 14px; 
-    }
+  .contact-wrapper {
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .contact-links-container {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .email-container p,
+  .LinkedIn-container p,
+  .discord-container p,
+  .back-to-top p {
+    font-size: 2.5vw;
+  }
+
+  .email-container a,
+  .LinkedIn-container a,
+  .discord-container a {
+    margin-bottom: 0%;
+  }
+
+  .contact-title {
+    font-size: 20vw;
+  }
+
+  .contact-title h2 {
+    letter-spacing: normal;
+  }
+
+  .copy-right p {
+    font-family: "Akshar", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+  }
 }
 
-
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   #landing-page {
     max-width: 768px;
     height: 100svh;
@@ -731,7 +729,7 @@ a {
     top: -15%;
     left: 50%;
     width: 100%;
-    max-width: 100vw; 
+    max-width: 100vw;
     overflow: hidden;
   }
   .landing-page-pic img {
@@ -749,7 +747,6 @@ a {
     width: 100%;
     max-height: 100svh;
     gap: 2rem;
-    
   }
   .mini-title1 {
     font-size: 8vw;
@@ -790,7 +787,7 @@ a {
     font-size: 3vw;
     letter-spacing: 0px;
   }
-  .resume-bottom-wrapper{
+  .resume-bottom-wrapper {
     min-height: 100svh;
   }
 
@@ -800,7 +797,7 @@ a {
     gap: 1rem;
     padding-top: 2rem;
   }
-  .mini-work-title h3{
+  .mini-work-title h3 {
     font-size: 25px;
   }
   .first-skills-wrp-container {
@@ -812,13 +809,13 @@ a {
     min-width: 50%;
     justify-content: space-evenly;
   }
-  .soft-skills{
+  .soft-skills {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-right: 40%;
   }
-  .cv-container{
+  .cv-container {
     margin-top: 5%;
     width: 50%;
     padding: 2rem;
@@ -846,14 +843,13 @@ a {
     align-items: center;
     width: 100%;
     margin-top: 0;
-
   }
 
   .contact-title {
     font-size: 20vw;
     letter-spacing: 0;
   }
-  .btm-conatct-container{
+  .btm-conatct-container {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
@@ -863,16 +859,16 @@ a {
   .copy-right p {
     font-size: 13px;
   }
-  .arrow svg{
+  .arrow svg {
     width: 0.7em;
     height: 0.7em;
   }
-  .cv-container{
+  .cv-container {
     width: 100%;
     max-height: 550px;
     padding: 1rem;
   }
-  
+
   .cv-card {
     width: 100%;
     height: 100%;
@@ -881,16 +877,42 @@ a {
     width: 100%;
     height: 250px;
   }
-  
+
   .cv-img-container img {
     width: 100%;
     height: 100%;
   }
 }
-@media (max-width: 427px) {
+@media (max-width: 425px) {
   #landing-page {
     height: 100vh;
-    max-width: 427px;
+    max-width: 425px;
   }
-
+  .landing-page-pic {
+    top: -14%;
+    width: 100%;
+  }
+  .landing-page-pic img {
+    height: 1150px;
+    width: 800px;
+  }
+  .page-title {
+    font-size: 22vw;
+    top: 20%;
+  }
+  .mini-title1 {
+    font-size: 6vw;
+    top: 15%;
+  }
+  .mini-title2 {
+    font-size: 6vw;
+    top: 25%;
+    right: 33%;
+  }
+  .experience-container p{
+    font-size: 12px;
+  }
+  .work_title{
+    width: 45%;
+  }
 }
