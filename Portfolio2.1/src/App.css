@@ -548,33 +548,27 @@ a {
 @media (max-width: 1024px) {
   #landing-page {
     height: 100vh;
-    width: 100%;
+    max-width: 1024px;
   }
 
   .landing-page-pic {
-    max-width: 1350px;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    z-index: 99;
-    position: absolute;
-    top: 68%;
+    top: -10%;
     left: 50%;
     transform: translateX(-50%); 
-    width: 60%;
+    width: 70%;
   }
   .page-title {
-    font-size: 20vw; 
-    top: 30%; 
+    font-size: 25vw; 
+    top: 35%; 
   }
 
   .mini-title1 {
-    font-size: 5vw; 
-    top: 25%;
+    font-size: 6vw; 
+    top: 22%;
   }
   .mini-title2 {
-    font-size: 5vw; 
-    top: 50%; 
+    font-size: 6vw; 
+    top: 49%; 
   }
 
   .job-title {
@@ -605,59 +599,33 @@ a {
     max-width: 100%;
     height: auto;
   }
-
-  .contact-wrapper {
-    margin-top: -50%; 
-  }
-
-  .contact-links-container {
-    padding: 2rem;
-    width: 100%;
-  }
-
-  .email-container p,
-  .LinkedIn-container p,
-  .discord-container p,
-  .back-to-top p {
-    font-size: 2.5vw; 
-  }
-
-  .email-container a,
-  .LinkedIn-container a,
-  .discord-container a {
-    margin-bottom: 0%;
-  }
-
-  .contact-title {
-    font-size: 8vw;
-  }
-
-  .contact-title h2 {
-    letter-spacing: normal;
-  }
-
-  .copy-right p {
-    font-family: "Akshar", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 14px; 
+  #resume-page{
+    max-width: 1024px;
   }
   .work-container {
-    width: 100%;
+    width: 60%;
   }
-
+  .work_date {
+    width: 22%;
+  }
+  .work_title{
+    width: 50%;
+  }
+  .work_title p, .work_date p, .work_company p{
+    font-size: 1.5vw;
+  }
   .cv-container {
-    width: 100%; 
-    max-height: 550px;
-    padding: 1rem;
+    width: 30%; 
+    padding: 2rem 1rem;
   }
-
+  .resume-bottom-wrapper{
+    justify-content: space-between;
+  }
+  
   .cv-card {
     width: 100%; 
-    height: auto;
   }
-
+  
   .cv-img-container {
     width: 100%;
     height: auto; 
@@ -666,6 +634,47 @@ a {
     width: 100%;
     height: auto; 
   }
+  .contact-page{
+    max-width: 1024px;
+  }
+    .contact-wrapper {
+      margin-top: 0%; 
+      width: 100%;
+    }
+  
+    .contact-links-container {
+      padding: 2rem;
+      width: 100%;
+    }
+  
+    .email-container p,
+    .LinkedIn-container p,
+    .discord-container p,
+    .back-to-top p {
+      font-size: 2.5vw; 
+    }
+  
+    .email-container a,
+    .LinkedIn-container a,
+    .discord-container a {
+      margin-bottom: 0%;
+    }
+  
+    .contact-title {
+      font-size: 20vw;
+    }
+  
+    .contact-title h2 {
+      letter-spacing: normal;
+    }
+  
+    .copy-right p {
+      font-family: "Akshar", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+      font-size: 14px; 
+    }
 }
 
 
