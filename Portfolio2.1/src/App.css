@@ -887,3 +887,10 @@ a {
     height: 100%;
   }
 }
+@media (max-width: 427px) {
+  #landing-page {
+    height: 100vh;
+    max-width: 427px;
+  }
+
+}
