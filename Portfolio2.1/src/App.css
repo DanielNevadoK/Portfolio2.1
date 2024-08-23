@@ -100,12 +100,15 @@ a {
     -webkit-transform: translateY(0%);
   }
 }
+#burger-menu{
+  display: none;
+}
 .header {
   width: 100%;
   background: transparent;
   display: flex;
   justify-content: end;
-  padding: 20px 35px;
+  padding: 20px 20px;
   position: sticky;
   width: 100%;
   z-index: 1000;
@@ -123,8 +126,9 @@ a {
   cursor: pointer;
 }
 .head-btn1,
-.head-btn2 {
-  padding: 0 20px;
+.head-btn2,
+.head-btn3 {
+  padding: 0 10px;
 }
 
 .landing-page-pic {
@@ -718,7 +722,7 @@ a {
   }
 }
 
-@media (max-width: 768px) {
+@media(max-width: 768px) {
   #landing-page {
     max-width: 768px;
     height: 100svh;
@@ -884,6 +888,15 @@ a {
   }
 }
 @media (max-width: 425px) {
+  .head-menu-items{
+    display: none;
+  }
+  .head-menu-items.is-open{
+    display: block;
+  }
+  #burger-menu{
+    display: block;
+  }
   #landing-page {
     height: 100vh;
     max-width: 425px;
