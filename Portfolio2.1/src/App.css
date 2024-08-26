@@ -104,14 +104,15 @@ a {
   display: none;
 }
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem;
   width: 100%;
   background: transparent;
   display: flex;
+  align-items: center;
   justify-content: end;
-  padding: 20px 20px;
-  position: sticky;
-  width: 100%;
-  z-index: 1000;
 }
 .header button {
   background-color: transparent;
@@ -122,6 +123,7 @@ a {
   font-style: normal;
   font-size: 18px;
 }
+
 .header button:hover {
   cursor: pointer;
 }
@@ -886,8 +888,6 @@ a {
     width: 100%;
     height: 100%;
   }
-}
-@media (max-width: 425px) {
   .head-menu-items{
     display: none;
   }
@@ -897,6 +897,9 @@ a {
   #burger-menu{
     display: block;
   }
+}
+@media (max-width: 425px) {
+
   #landing-page {
     height: 100vh;
     max-width: 425px;

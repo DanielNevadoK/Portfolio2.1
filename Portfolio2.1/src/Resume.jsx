@@ -113,10 +113,9 @@ function Resume() {
           <div className="cv-card">
             <div className="cv-text-and-icon-container">
               <div className="cv-text">
-                <p>Daniel</p>
-                <p>Nevado Kröger</p>
+              <p>Download CV</p>
               </div>
-              <a href="#" download="CV Daniel Nevado Kröger">
+              <a href="./public/doc/Daniel_Nevado_Kröger_CV.pdf" download="CV Daniel Nevado Kröger">
                 <FaFileDownload size={29} />
               </a>
             </div>
