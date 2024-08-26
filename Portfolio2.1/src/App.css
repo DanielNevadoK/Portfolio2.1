@@ -38,7 +38,7 @@ a {
   overflow: hidden;
   position: relative;
 }
-
+/* Header is not working as wished, due to something overriding or bug, sticky not working, and scroll function to make it apper and disapper. Might be the animation thats the problem. */
 .header {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
