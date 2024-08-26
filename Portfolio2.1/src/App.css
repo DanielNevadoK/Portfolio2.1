@@ -301,11 +301,15 @@ a {
   box-sizing: border-box;
   overflow: hidden;
   align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 340px;
 }
 .small-project-card img,
 .medium-project-card img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit:fill;
 }
 
 .description-container {
