@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import { RiMenu5Line } from "react-icons/ri";
+import { MdClose } from "react-icons/md";
+
+
 
 function Header() {
 
@@ -19,7 +23,7 @@ function Header() {
         <a href="#contact-page">Contact</a>
       </button>
       </ul>
-      <button id="burger-menu" onClick={toggleMenu}>Trigger</button>
+      <button id="burger-menu" onClick={toggleMenu} >{isOpen ? <MdClose /> : <RiMenu5Line />} </button>
     </nav>
   );
 }

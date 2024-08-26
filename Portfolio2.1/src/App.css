@@ -269,16 +269,16 @@ a {
 #project-section1 {
   width: 100%;
   display: flex;
-  flex-wrap: wrap; /* Ensure items wrap to the next row */
-  justify-content: space-between; /* Distribute items evenly */
+  flex-wrap: wrap; 
+  justify-content: space-between;
   gap: 2rem;
 }
 
 .small-project-card,
 .medium-project-card {
-  width: 48%; /* 48% width allows for a 2% gap between cards */
+  width: 48%; 
   box-sizing: border-box;
-  margin-bottom: 2rem; /* Add some margin for spacing */
+  margin-bottom: 2rem; 
 }
 
 .description-container {
@@ -433,7 +433,7 @@ a {
 }
 
 .cv-card {
-  width: 100%;
+  width: 50%;
   height: 100%;
   overflow: hidden;
 }
