@@ -636,7 +636,7 @@ a {
 
   .small-project-card,
   .medium-project-card {
-    height: auto;
+    width: 100%; 
   }
 
   .small-project-card img,
@@ -659,7 +659,7 @@ a {
     max-width: 1024px;
   }
   .work-container {
-    width: 60%;
+    width: 100%;
   }
   .work_date {
     width: 22%;
@@ -673,8 +673,11 @@ a {
     font-size: 1.5vw;
   }
   .cv-container {
-    width: 30%;
-    padding: 2rem 1rem;
+    width: 100%;
+    padding: 2rem 0;
+  }
+  .cv-text-and-icon-container {
+    padding: 0;
   }
   .resume-bottom-wrapper {
     justify-content: space-between;
@@ -719,7 +722,7 @@ a {
   }
 
   .contact-title {
-    font-size: 20vw;
+    font-size: 17vw;
   }
 
   .contact-title h2 {
@@ -789,6 +792,8 @@ a {
     width: 100%;
     height: auto;
   }
+
+  
   .small-project-card img,
   .medium-project-card img {
     width: 100vw;
@@ -910,6 +915,9 @@ a {
   #burger-menu{
     display: block;
   }
+  .contact-title h2 {
+    font-size: 20vw;
+  }
 }
 @media (max-width: 425px) {
 
@@ -954,4 +962,5 @@ a {
 }
 .cv-text-and-icon-container {
   padding: 0;
+}
 }
