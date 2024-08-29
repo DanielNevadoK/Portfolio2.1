@@ -963,4 +963,8 @@ a {
 .cv-text-and-icon-container {
   padding: 0;
 }
+.contact-title {
+  font-size: 17vw;
+}
+
 }
