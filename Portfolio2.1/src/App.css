@@ -428,7 +428,6 @@ a {
 }
 .cv-container {
   width: 50%;
-  padding: 2rem;
 }
 .cv-container {
   display: flex;
@@ -439,7 +438,7 @@ a {
 }
 
 .cv-card {
-  width: 50%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
 }
@@ -447,11 +446,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #191919;
+  /* background-color: #191919; */
   padding: 0.5rem;
 }
 .cv-text p {
-  font-size: 17px;
+  font-weight: 300;
+  font-size: 2vw;
 }
 .cv-img-container {
   width: 100%;
@@ -530,6 +530,15 @@ a {
 .discord-container a {
   margin-bottom: -80%;
 }
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .arrow svg {
+  width: 0.7em;
+  height: 0.7em;
+} */
 .contact-title {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
