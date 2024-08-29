@@ -39,7 +39,7 @@ a {
   position: relative;
 }
 /* Header is not working as wished, due to something overriding or bug, sticky not working, and scroll function to make it apper and disapper. Might be the animation thats the problem. */
-/* .header {
+.header {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
 
@@ -78,9 +78,9 @@ a {
   100% {
     transform: translateY(0%);
   }
-} */
+}
 
-/* @-webkit-keyframes slideDown {
+@-webkit-keyframes slideDown {
   0% {
     -webkit-transform: translateY(-100%);
   }
@@ -99,13 +99,13 @@ a {
   100% {
     -webkit-transform: translateY(0%);
   }
-} */
+}
 #burger-menu{
   display: none;
 }
 .header {
   position: sticky;
-  top: 0;
+  top: -100px;
   z-index: 1000;
   padding: 1rem;
   width: 100%;
