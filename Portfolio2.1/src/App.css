@@ -916,23 +916,27 @@ a {
     max-width: 425px;
   }
   .landing-page-pic {
-    top: -14%;
+    top: -5%;
     width: 100%;
+    display: flex;
+    justify-content: center; 
   }
   .landing-page-pic img {
-    height: 1150px;
-    width: 800px;
+    max-width: 200%;  
+    height: auto;     
+    max-height: 200vh; 
+    width: auto;       
   }
   .page-title {
-    font-size: 22vw;
+    font-size: 27vw;
     top: 20%;
   }
   .mini-title1 {
-    font-size: 6vw;
+    font-size: 8vw;
     top: 15%;
   }
   .mini-title2 {
-    font-size: 6vw;
+    font-size: 8vw;
     top: 25%;
     right: 33%;
   }
