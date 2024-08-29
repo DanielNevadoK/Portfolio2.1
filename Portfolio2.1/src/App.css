@@ -912,7 +912,7 @@ a {
 @media (max-width: 425px) {
 
   #landing-page {
-    height: 100dvh;
+    height: 100svh;
     max-width: 425px;
   }
   .landing-page-pic {
