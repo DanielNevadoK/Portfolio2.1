@@ -40,7 +40,7 @@ function Contact() {
           </address>
         </div>
         <div className="contact-title">
-          <h2>CONTACT</h2>
+          <h2>Let's Talk</h2>
         </div>
         <div className="btm-conatct-container">
           <div className="back-to-top">
