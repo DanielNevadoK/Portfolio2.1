@@ -932,9 +932,9 @@ a {
     justify-content: center; 
   }
   .landing-page-pic img {
-    max-width: 190%;  
+    max-width: 170%;  
     height: auto;     
-    max-height: 190vh; 
+    max-height: 170vh; 
     width: auto;       
   }
   .page-title {
@@ -943,11 +943,11 @@ a {
   }
   .mini-title1 {
     font-size: 8vw;
-    top: 15%;
+    top: 14%;
   }
   .mini-title2 {
     font-size: 8vw;
-    top: 25%;
+    top: 26%;
     right: 33%;
   }
   .experience-container p{
@@ -957,7 +957,7 @@ a {
     width: 45%;
   }
   .job-title {
-    top: 75%;
+    top: 90%;
     font-size: 13vw;
 }
 .cv-text-and-icon-container {
