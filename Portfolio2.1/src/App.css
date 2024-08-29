@@ -801,7 +801,7 @@ a {
   .experience-container p,
   .skills-container p,
   .cv-container p {
-    font-size: 3vw;
+    font-size: 5vw;
     letter-spacing: 0px;
   }
   .resume-bottom-wrapper {
@@ -941,7 +941,7 @@ a {
     right: 33%;
   }
   .experience-container p{
-    font-size: 12px;
+    font-size: 10px;
   }
   .work_title{
     width: 45%;
