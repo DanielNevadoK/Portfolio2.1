@@ -809,7 +809,7 @@ a {
     letter-spacing: 0px;
   }
   .cv-container p {
-    font-size: 5vw;
+    font-size: 3vw;
   }
   .resume-bottom-wrapper {
     min-height: 100svh;
@@ -919,11 +919,11 @@ a {
     font-size: 20vw;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 
   #landing-page {
     height: 100vh;
-    max-width: 425px;
+    max-width: 426px;
   }
   .landing-page-pic {
     top: -5%;
@@ -963,8 +963,17 @@ a {
 .cv-text-and-icon-container {
   padding: 0;
 }
+.arrow svg {
+  width: 0.5em;
+  height: 0.5em;
+}
 .contact-title {
   font-size: 17vw;
 }
 
+}
+@media (max-width: 375px) {
+  .work-container{
+
+  }
 }
