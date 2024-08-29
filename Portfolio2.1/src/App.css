@@ -922,9 +922,9 @@ a {
     justify-content: center; 
   }
   .landing-page-pic img {
-    max-width: 200%;  
+    max-width: 190%;  
     height: auto;     
-    max-height: 200vh; 
+    max-height: 190vh; 
     width: auto;       
   }
   .page-title {
