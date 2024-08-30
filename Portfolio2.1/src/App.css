@@ -100,7 +100,7 @@ a {
     -webkit-transform: translateY(0%);
   }
 }
-#burger-menu{
+#burger-menu {
   display: none;
 }
 .header {
@@ -271,16 +271,16 @@ a {
 #project-section1 {
   width: 100%;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
 }
 
 .small-project-card,
 .medium-project-card {
-  width: 48%; 
+  width: 48%;
   box-sizing: border-box;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 .description-container {
@@ -309,7 +309,7 @@ a {
 .medium-project-card img {
   width: 100%;
   height: 100%;
-  object-fit:fill;
+  object-fit: fill;
 }
 
 .description-container {
@@ -399,6 +399,9 @@ a {
 .work_date p,
 .work_company p {
   margin: 0.2rem;
+}
+.btm-border{
+  border-bottom: 1px solid white;
 }
 .work_date p,
 .SS-number p {
@@ -530,7 +533,7 @@ a {
 .discord-container a {
   margin-bottom: -80%;
 }
-.arrow{
+.arrow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -636,7 +639,7 @@ a {
 
   .small-project-card,
   .medium-project-card {
-    width: 100%; 
+    width: 100%;
   }
 
   .small-project-card img,
@@ -738,7 +741,7 @@ a {
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   #landing-page {
     max-width: 768px;
     height: 100svh;
@@ -793,7 +796,6 @@ a {
     height: auto;
   }
 
-  
   .small-project-card img,
   .medium-project-card img {
     width: 100vw;
@@ -804,7 +806,7 @@ a {
   }
 
   .experience-container p,
-  .skills-container p{
+  .skills-container p {
     font-size: 3vw;
     letter-spacing: 0px;
   }
@@ -906,13 +908,13 @@ a {
     width: 100%;
     height: 100%;
   }
-  .head-menu-items{
+  .head-menu-items {
     display: none;
   }
-  .head-menu-items.is-open{
+  .head-menu-items.is-open {
     display: block;
   }
-  #burger-menu{
+  #burger-menu {
     display: block;
   }
   .contact-title h2 {
@@ -920,7 +922,6 @@ a {
   }
 }
 @media (max-width: 426px) {
-
   #landing-page {
     height: 100vh;
     max-width: 426px;
@@ -929,13 +930,13 @@ a {
     top: -5%;
     width: 100%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
   }
   .landing-page-pic img {
-    max-width: 170%;  
-    height: auto;     
-    max-height: 170vh; 
-    width: auto;       
+    max-width: 170%;
+    height: auto;
+    max-height: 170vh;
+    width: auto;
   }
   .page-title {
     font-size: 27vw;
@@ -950,30 +951,40 @@ a {
     top: 26%;
     right: 33%;
   }
-  .experience-container p{
-    font-size: 10px;
-  }
-  .work_title{
+  /* .experience-container p {
+    font-size: 1.5vw;
+  } */
+   .work-container{
+    width: 100%;
+
+   }
+  .work_title {
     width: 45%;
   }
   .job-title {
     top: 90%;
     font-size: 13vw;
-}
-.cv-text-and-icon-container {
-  padding: 0;
-}
-.arrow svg {
-  width: 0.5em;
-  height: 0.5em;
-}
-.contact-title {
-  font-size: 17vw;
-}
-
-}
-@media (max-width: 375px) {
-  .work-container{
-
   }
+  .cv-text-and-icon-container {
+    padding: 0;
+  }
+  .arrow svg {
+    width: 0.5em;
+    height: 0.5em;
+  }
+  .contact-title {
+    font-size: 17vw;
+  }
+  .resume-title h2 {
+    font-size: 10vw;
+    letter-spacing: 0px;
+  }
+  .experience-container{
+      width: 100%;  
+      margin: 0;   
+      padding: 0;  
+      box-sizing: border-box;
+  }
+@media (max-width: 376px) {
+
 }

@@ -25,23 +25,27 @@ function Resume() {
           </div>
           <div className="experience-container">
             <div className="work_title">
-              <p>Frontend developer (Internship)</p>
-              <p>Frontend developer (Internship)</p>
-              <p>IT Projectmanager / Scrum Master</p>
-              <p>Traffick managment</p>
+              <p>02/24 - 05/24 :</p>
+              <p className="btm-border">Frontend developer (Internship) - KPI Media</p>
+              <p>12/23 - 03/24 :</p>
+              <p className="btm-border">Frontend developer (Internship) - Stryda AB</p>
+              <p>04/23 - 10/23 :</p>
+              <p className="btm-border">IT Projectmanager / Scrum Master - MTR Nordic AB</p>
+              <p>06/19 - 18/24 :</p>
+              <p className="btm-border">Traffick managment - MTR Nordic AB</p>
             </div>
-            <div className="work_date">
+            {/* <div className="work_date">
               <p>02/24 - 05/24</p>
               <p>12/23 - 03/24</p>
               <p>04/23 - 10/23</p>
               <p>06/19 - 18/24</p>
-            </div>
-            <div className="work_company">
+            </div> */}
+            {/* <div className="work_company">
               <p>KPI Media</p>
               <p>Stryda AB</p>
               <p>MTR Nordic AB</p>
               <p>MTR Nordic AB</p>
-            </div>
+            </div> */}
           </div>
           <div className="skills-container">
             <div className="first-skills-wrp-container">
