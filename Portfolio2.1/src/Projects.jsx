@@ -12,9 +12,9 @@ function Projects() {
         <section id="project-section1">
           <div className="medium-project-card">
             <div className="medium-img-container">
-              <a href="https://brokenrecords.vercel.app/" target="_blank">
+              <Link to="/project_cases/broken-records">
                 <img src="./Img/Broken_records_pic.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="description-container">
               <p className="project-card-title">Broken Records</p>

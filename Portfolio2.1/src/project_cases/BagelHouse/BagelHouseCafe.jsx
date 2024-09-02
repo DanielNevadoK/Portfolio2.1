@@ -6,7 +6,7 @@ function BagelHouseCafe() {
   return (
     <div id='bagel-house-cafe'>
         <div>
-            <h1>Short intro text</h1>
+            <h1>Bagel House Cafe</h1>
             <img src="" alt="The project" />
         </div>
         <div>
