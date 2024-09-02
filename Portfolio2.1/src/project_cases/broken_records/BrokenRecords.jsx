@@ -6,6 +6,7 @@ function BrokenRecords() {
     <div id='broken-records'>
     <div>
         <h1>Broken Records</h1>
+        <p>Hello im still under development, pls comeback later! 😎👍</p>
         <img src="" alt="The project" />
     </div>
     <div>

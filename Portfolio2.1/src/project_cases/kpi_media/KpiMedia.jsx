@@ -1,12 +1,11 @@
 import React from 'react'
-import "./BagelHouseCafe.css"
+import "./KpiMedia.css"
 
-
-function BagelHouseCafe() {
+function KpiMedia() {
   return (
-    <div id='bagel-house-cafe'>
+    <div id='kpi-media'>
         <div>
-            <h1>Bagel House Cafe</h1>
+            <h1>KPI Media</h1>
             <p>Hello im still under development, pls comeback later! 😎👍</p>
             <img src="" alt="The project" />
         </div>
@@ -31,4 +30,4 @@ function BagelHouseCafe() {
   )
 }
 
-export default BagelHouseCafe
+export default KpiMedia

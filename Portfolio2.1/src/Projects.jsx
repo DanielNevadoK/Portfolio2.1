@@ -34,9 +34,9 @@ function Projects() {
           </div>
           <div className="medium-project-card">
             <div className="medium-img-container">
-              <a href="#">
+              <Link to="/project_cases/HairSalonEs">
                 <img src="./Img/Peluceria.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="description-container">
               <p className="project-title">Spanish Hair Salon</p>

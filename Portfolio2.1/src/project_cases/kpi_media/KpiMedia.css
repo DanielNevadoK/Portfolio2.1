@@ -1,4 +1,4 @@
-#bagel-house-cafe {
+#kpi-media {
     background-color: #f9f9f9;
     padding: 20px;
     height: 100vh;
@@ -7,13 +7,10 @@
     margin: 0;
   }
   
-#bagel-house-cafe h1 {
-    color: black;
+#kpi-media h1 {
+    color: white;
     font-size: 36px;
   }
-#bagel-house-cafe p{
-  color: black;
-}
   
   img {
     max-width: 100%;
