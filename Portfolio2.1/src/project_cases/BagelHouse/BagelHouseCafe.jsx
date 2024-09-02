@@ -1,4 +1,6 @@
 import React from 'react'
+import "./BagelHouseCafe.css"
+
 
 function BagelHouseCafe() {
   return (

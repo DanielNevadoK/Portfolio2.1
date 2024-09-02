@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Link } from 'react-router-dom';
 
 function Projects() {
   return (
@@ -22,9 +23,9 @@ function Projects() {
           </div>
           <div className="medium-project-card">
             <div className="medium-img-container">
-              <a href="#">
+              <Link to="/project_cases/bagel-house-cafe">
                 <img src="./Img/Bagel_street_house.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="description-container">
               <p className="project-title">Bagel House Café</p>
