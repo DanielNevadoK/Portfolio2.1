@@ -1,5 +1,6 @@
 import React from "react";
 import "./BagelHouseCafe.css";
+import Tooltip from '@mui/material/Tooltip';
 
 function BagelHouseCafe() {
   return (
@@ -39,16 +40,20 @@ function BagelHouseCafe() {
         <div className="pc-tools">
           <h3>TOOLS</h3>
           <div className="logos-container">
+            <Tooltip title="Figma" arrow>
             <img
               className="tech-logo"
               src="../Img/tech_stack_logos/figma.png"
               alt="Figma"
-            />
+              />
+              </Tooltip>
+              <Tooltip title="Midjourney.Ai" arrow>
             <img
               className="tech-logo"
               src="../Img/tech_stack_logos/Midjourney-White.png"
               alt="Figma"
             />
+              </Tooltip>
           </div>
         </div>
         <div className="pc-team">
