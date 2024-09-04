@@ -15,51 +15,108 @@ function BagelHouseCafe() {
         <div className="pc-lp-img-container">
           <img
             className=" pc-lp-img2"
-            src="../Img/Bagel_House_company_top_low_fed.png"
+            src="../Img/bagel_house_img/Bagel_House_company_top_low_fed.png"
             alt="The project"
           />
           <img
             className="pc-lp-img1"
-            src="../Img/Bagel_House_company_top_wbar.png"
+            src="../Img/bagel_house_img/Bagel_House_company_top_wbar.png"
             alt="The project"
           />
         </div>
       </section>
       <section className="pc-page-devider">
         <div className="pc-role">
-          <h3>My Role</h3>
+          <h3>MY ROLE</h3>
+          <p>Frontend developer</p>
+          <p>UX/UI Designer</p>
+          <p>(Intern)</p>
         </div>
-        <div className="pc-tek-lang">
-          <h3>Tech Stack</h3>
-        </div>
+        {/* <div className="pc-tek-lang">
+          <h3>TECH STACK</h3>
+          <img className="tech-logo" src="../Img/tech_stack_logos/figma.png" alt="Figma" />
+        </div> */}
         <div className="pc-tools">
-          <h3>Tools</h3>
+          <h3>TOOLS</h3>
+          <div className="logos-container">
+            <img
+              className="tech-logo"
+              src="../Img/tech_stack_logos/figma.png"
+              alt="Figma"
+            />
+            <img
+              className="tech-logo"
+              src="../Img/tech_stack_logos/Midjourney-White.png"
+              alt="Figma"
+            />
+          </div>
         </div>
         <div className="pc-team">
-          <h3>Team</h3>
+          <h3>TEAM</h3>
+          <p>Design</p>
+          <p>(Solo)</p>
         </div>
         <div className="pc-duration">
-          <h3>Duration</h3>
+          <h3>DURATION</h3>
+          <p>1 Day</p>
+          <p>(8h)</p>
         </div>
       </section>
-      <div>
-        <img src="" alt="more pic of website" />
-      </div>
-      <div>
-        <div>
-          <h3>01 overview</h3>
+      <section className="pc-mid-container">
+        <div className="pc-mid-img-container">
+          <img
+            className="pc-mid-section-img1"
+            src="../Img/bagel_house_img/Bagel_House_company_half.png"
+            alt="more pic of website"
+          />
+          <img
+            className="pc-mid-section-img2"
+            src="../Img/bagel_house_img/Bagel_House_company_bottom_half.png"
+            alt="more pic of website"
+          />
         </div>
-        <div>
-          <h3>02 Problem</h3>
+      </section>
+      <section className="pc-lower-container">
+        <div className="number-block">
+          <h3>01. OVERVIEW</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            architecto blanditiis doloribus ex ducimus dolor aperiam voluptas
+            quae. Quos voluptatem ipsum soluta temporibus nihil dolores aliquam
+            beatae esse ex ad.
+          </p>
         </div>
-        <div>
-          <h3>03 Design process </h3>
+        <div className="number-block">
+          <h3>02. PROBLEM</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            repudiandae, omnis quis sint consectetur, perferendis exercitationem
+            pariatur facere nesciunt voluptatum explicabo fugit vero ipsum sunt
+            dignissimos aut cum nisi quam.
+          </p>
         </div>
-        <div>
+        <div className="number-block">
+          <h3>03. DESIGN PROCESS</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            natus minus optio, veniam sed voluptatem, a pariatur labore laborum
+            libero quam in excepturi eligendi quae consequatur quidem molestiae
+            ipsum id.
+          </p>
+        </div>
+        <div className="design-flow">
           <img src="" alt="figma flow" />
         </div>
-        <div>04 Selution and Resoults</div>
-      </div>
+        <div className="number-block">
+          <h3>04. Selution and Results</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            natus minus optio, veniam sed voluptatem, a pariatur labore laborum
+            libero quam in excepturi eligendi quae consequatur quidem molestiae
+            ipsum id.
+          </p>
+        </div>
+      </section>
       <div>
         <h5>Visit the live site (if it excist)</h5>
       </div>
