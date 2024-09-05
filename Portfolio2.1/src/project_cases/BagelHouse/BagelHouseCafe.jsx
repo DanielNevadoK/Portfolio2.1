@@ -1,6 +1,6 @@
 import React from "react";
 import "./BagelHouseCafe.css";
-import Tooltip from '@mui/material/Tooltip';
+import Tooltip from "@mui/material/Tooltip";
 
 function BagelHouseCafe() {
   return (
@@ -41,19 +41,26 @@ function BagelHouseCafe() {
           <h3>TOOLS</h3>
           <div className="logos-container">
             <Tooltip title="Figma" arrow>
-            <img
-              className="tech-logo"
-              src="../Img/tech_stack_logos/figma.png"
-              alt="Figma"
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/figma.png"
+                alt="Figma"
               />
-              </Tooltip>
-              <Tooltip title="Midjourney.Ai" arrow>
-            <img
-              className="tech-logo"
-              src="../Img/tech_stack_logos/Midjourney-White.png"
-              alt="Figma"
-            />
-              </Tooltip>
+            </Tooltip>
+            <Tooltip title="Midjourney.Ai" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/Midjourney-White.png"
+                alt="Figma"
+              />
+            </Tooltip>
+            <Tooltip title="PhotoShop" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/PhotoShop.png"
+                alt="Figma"
+              />
+            </Tooltip>
           </div>
         </div>
         <div className="pc-team">
@@ -110,7 +117,32 @@ function BagelHouseCafe() {
           </p>
         </div>
         <div className="design-flow">
-          <img src="" alt="figma flow" />
+          <div className="full-lenght-img-container">
+            <img
+              src="../Img/bagel_house_img/Bagel_House_company.png"
+              alt="Full webpage"
+            />
+            <img
+              src="../Img/bagel_house_img/Bagel_House_company_low_fed.png"
+              alt="Full webpage"
+            />
+          </div>
+          <div className="component-img-container">
+            <div className="head-foot-img-container">
+              <img src="../Img/bagel_house_img/Bagel_Header.png" alt="Header" />
+              <img src="../Img/bagel_house_img/Bagel_footer.png" alt="Footer" />
+            </div>
+            <div className="buttons-img-container">
+              <img className="btn-img-1" src="../Img/bagel_house_img/Bagel_order.png" alt="Button" />
+              <img className="btn-img-2"
+                src="../Img/bagel_house_img/Bagel_find_us.png"
+                alt="Button"
+              />
+              <img className="btn-img-3"
+              src="../Img/bagel_house_img/Bagel_menu.png" 
+              alt="Button" />
+            </div>
+          </div>
         </div>
         <div className="number-block">
           <h3>04. Selution and Results</h3>
