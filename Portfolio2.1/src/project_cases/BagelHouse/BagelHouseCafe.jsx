@@ -155,10 +155,16 @@ function BagelHouseCafe() {
             ipsum id.
           </p>
         </div>
+        <div className="number-block">
+          <h3>Let's talk ✉️</h3>
+          <a href="mailto: daniel.nkroger@outlook.com">
+            daniel.nkroger@outlook.com
+          </a>
+        </div>
       </section>
-      <div>
+      {/* <div>
         <h5>Visit the live site (if it excist)</h5>
-      </div>
+      </div> */}
     </div>
   );
 }
