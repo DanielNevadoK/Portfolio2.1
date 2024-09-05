@@ -215,19 +215,24 @@ a {
   transform: translate(76%, -10%);
 }
 
-.job-title {
+.job-title p{
   animation: fade-in 1.5s ease-in-out 1s forwards;
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 6rem;
   align-self: center;
+  justify-content: center;
   z-index: 100;
   position: absolute;
   top: 90%;
-  left: 50%;
+  left: 77%;
   transform: translate(-50%, -50%);
   opacity: 0;
+  width: 100%;
+}
+.job-title p{
+  
 }
 
 /* //PROJECTS// */
