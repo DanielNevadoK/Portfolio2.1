@@ -1,10 +1,12 @@
 import React from "react";
 import "./BagelHouseCafe.css";
 import Tooltip from "@mui/material/Tooltip";
+import ProjectsHeader from "../projects_header/ProjectsHeader";
 
 function BagelHouseCafe() {
   return (
     <div id="bagel-house-cafe">
+      <ProjectsHeader />
       <section className="project-case-landing-page">
         <div className="pc-lp-title-container">
           <h1>Bagel House Café</h1>
@@ -157,7 +159,6 @@ function BagelHouseCafe() {
       <div>
         <h5>Visit the live site (if it excist)</h5>
       </div>
-      <div>Other projects</div>
     </div>
   );
 }

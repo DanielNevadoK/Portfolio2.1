@@ -28,6 +28,8 @@ function App() {
         />
         {/* Route for the BagelHouseCafe project page */}
         {/* <Route path="/project_cases/hair-salon-es" element={<HairSalonEs />} /> */}
+        
+        <Route path="/Projects" element={<Projects />} />
         <Route path="/project_cases/broken-records" element={<BrokenRecords />} />
         <Route path="/project_cases/bagel-house-cafe" element={<BagelHouseCafe />} />
       </Routes>
