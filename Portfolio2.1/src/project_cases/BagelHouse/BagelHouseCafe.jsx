@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./BagelHouseCafe.css";
 import Tooltip from "@mui/material/Tooltip";
 import ProjectsHeader from "../projects_header/ProjectsHeader";
