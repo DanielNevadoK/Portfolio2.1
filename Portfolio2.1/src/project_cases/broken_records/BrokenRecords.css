@@ -220,7 +220,12 @@ a {
 }
 
 .design-flow {
-  background-color: #d3bb62;
+  background: rgb(44, 44, 44);
+  background: linear-gradient(
+    188deg,
+    rgb(236, 206, 72) 0%,
+    rgba(12, 11, 11, 0.502) 71%
+  );
   height: 100vh;
   width: 100%;
   display: flex;

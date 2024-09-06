@@ -100,8 +100,8 @@ function BrokenRecords() {
         </div>
         <div className="pc-duration">
           <h3>DURATION</h3>
-          <p>1 Day</p>
-          <p>(8h)</p>
+          <p>6 Weeks</p>
+          {/* <p>(8h)</p> */}
         </div>
       </section>
       <section className="pc-mid-container">
@@ -153,20 +153,20 @@ function BrokenRecords() {
               alt="Full webpage"
             />
             <img
-              src="../Img/bagel_house_img/Bagel_House_company_low_fed.png"
+              src="../Img/broken_records_img/BrokenRecords-under-pages.png"
               alt="Full webpage"
             />
           </div>
           <div className="component-img-container">
             <div className="head-foot-img-container">
-              <img src="../Img/bagel_house_img/Bagel_Header.png" alt="Header" />
-              <img src="../Img/bagel_house_img/Bagel_footer.png" alt="Footer" />
+              <img src="../Img/broken_records_img/BrokenRecords-product-card-img.png" alt="Header" />
+              <img src="../Img/broken_records_img/BrokenRecord-produkt-page-img.png" alt="Footer" />
             </div>
-            <div className="buttons-img-container">
+            {/* <div className="buttons-img-container">
               <img
                 className="btn-img-1"
-                src="../Img/bagel_house_img/Bagel_order.png"
-                alt="Button"
+                src="../Img/broken_records_img/BrokenRecords-product-card-img.png"
+                alt="Product cards"
               />
               <img
                 className="btn-img-2"
@@ -178,7 +178,7 @@ function BrokenRecords() {
                 src="../Img/bagel_house_img/Bagel_menu.png"
                 alt="Button"
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="number-block">
