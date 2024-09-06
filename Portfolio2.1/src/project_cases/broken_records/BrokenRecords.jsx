@@ -1,33 +1,231 @@
-import React from 'react'
-import "./BrokenRecords.css"
+import React from "react";
+import "./BrokenRecords.css";
+import Tooltip from "@mui/material/Tooltip";
+import ProjectsHeader from "../projects_header/ProjectsHeader";
 
 function BrokenRecords() {
   return (
-    <div id='broken-records'>
-    <div>
-        <h1>Broken Records</h1>
-        <p>Hello im still under development, pls comeback later! 😎👍</p>
-        <img src="" alt="The project" />
+    <div id="broken-records">
+      <ProjectsHeader />
+      <section className="project-case-landing-page">
+        <div className="pc-lp-title-container">
+          <h1>Broken Records</h1>
+          <p>This is a vinly record webshop</p>
+        </div>
+        <div className="pc-lp-img-container">
+          <img
+            className=" pc-lp-img2"
+            src="../Img/broken_records_img/BrokenRedord_logo (2).png"
+            alt="The project"
+          />
+          <img
+            className="pc-lp-img1"
+            src="../Img/broken_records_img/BrokenRecords-LP.png"
+            alt="The project"
+          />
+        </div>
+      </section>
+      <section className="pc-page-devider">
+        <div className="pc-role">
+          <h3>MY ROLE</h3>
+          <p>Frontend developer</p>
+          <p>UX/UI Designer</p>
+          {/* <p>(Intern)</p> */}
+        </div>
+        <div className="pc-tek-lang">
+            <h3>TECH STACK</h3>
+          <div className="logos-container">
+            <Tooltip title="React" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/React.png"
+                alt="React"
+              />
+            </Tooltip>
+            <Tooltip title="JavaScript" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/JavaScript.png"
+                alt="JavaScript"
+              />
+            </Tooltip>
+            <Tooltip title="HTML" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/Html.png"
+                alt="HTML"
+              />
+            </Tooltip>
+            <Tooltip title="CSS" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/css.png"
+                alt="CSS"
+              />
+            </Tooltip>
+          </div>
+        </div>
+        <div className="pc-tools">
+          <h3>TOOLS</h3>
+          <div className="logos-container">
+            <Tooltip title="Figma" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/figma.png"
+                alt="Figma"
+              />
+            </Tooltip>
+            <Tooltip title="Midjourney.Ai" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/Midjourney-White.png"
+                alt="Figma"
+              />
+            </Tooltip>
+            <Tooltip title="PhotoShop" arrow>
+              <img
+                className="tech-logo"
+                src="../Img/tech_stack_logos/PhotoShop.png"
+                alt="Figma"
+              />
+            </Tooltip>
+          </div>
+        </div>
+        <div className="pc-team">
+          <h3>TEAM</h3>
+          <p>Development & Design</p>
+          <Tooltip title="Me & Jonael Ghidey">
+          <p>(2 people)</p>
+          </Tooltip>
+        </div>
+        <div className="pc-duration">
+          <h3>DURATION</h3>
+          <p>1 Day</p>
+          <p>(8h)</p>
+        </div>
+      </section>
+      <section className="pc-mid-container">
+        <div className="pc-mid-img-container">
+          <img
+            className="pc-mid-section-img1"
+            src="../Img/broken_records_img/BrokenRecords-top-half.png"
+            alt="more pic of website"
+          />
+          <img
+            className="pc-mid-section-img2"
+            src="../Img/bagel_house_img/Bagel_House_company_bottom_half.png"
+            alt="more pic of website"
+          />
+        </div>
+      </section>
+      <section className="pc-lower-container">
+        <div className="number-block">
+          <h3>01. OVERVIEW</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            architecto blanditiis doloribus ex ducimus dolor aperiam voluptas
+            quae. Quos voluptatem ipsum soluta temporibus nihil dolores aliquam
+            beatae esse ex ad.
+          </p>
+        </div>
+        <div className="number-block">
+          <h3>02. PROBLEM</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            repudiandae, omnis quis sint consectetur, perferendis exercitationem
+            pariatur facere nesciunt voluptatum explicabo fugit vero ipsum sunt
+            dignissimos aut cum nisi quam.
+          </p>
+        </div>
+        <div className="number-block">
+          <h3>03. DESIGN PROCESS</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            natus minus optio, veniam sed voluptatem, a pariatur labore laborum
+            libero quam in excepturi eligendi quae consequatur quidem molestiae
+            ipsum id.
+          </p>
+        </div>
+        <div className="design-flow">
+          <div className="full-lenght-img-container">
+            <img
+              src="../Img/bagel_house_img/Bagel_House_company.png"
+              alt="Full webpage"
+            />
+            <img
+              src="../Img/bagel_house_img/Bagel_House_company_low_fed.png"
+              alt="Full webpage"
+            />
+          </div>
+          <div className="component-img-container">
+            <div className="head-foot-img-container">
+              <img src="../Img/bagel_house_img/Bagel_Header.png" alt="Header" />
+              <img src="../Img/bagel_house_img/Bagel_footer.png" alt="Footer" />
+            </div>
+            <div className="buttons-img-container">
+              <img
+                className="btn-img-1"
+                src="../Img/bagel_house_img/Bagel_order.png"
+                alt="Button"
+              />
+              <img
+                className="btn-img-2"
+                src="../Img/bagel_house_img/Bagel_find_us.png"
+                alt="Button"
+              />
+              <img
+                className="btn-img-3"
+                src="../Img/bagel_house_img/Bagel_menu.png"
+                alt="Button"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="number-block">
+          <h3>04. Selution and Results</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            natus minus optio, veniam sed voluptatem, a pariatur labore laborum
+            libero quam in excepturi eligendi quae consequatur quidem molestiae
+            ipsum id.
+          </p>
+        </div>
+        <div className="number-block">
+          <h3>Let's talk ✉️</h3>
+          <a href="mailto: daniel.nkroger@outlook.com">
+            daniel.nkroger@outlook.com
+          </a>
+        </div>
+      </section>
+      {/* <div>
+      <h5>Visit the live site (if it excist)</h5>
+    </div> */}
     </div>
-    <div>
-       <div><p>My role</p></div>
-       <div><p>Team (Solo)</p></div>
-       <div>Duration 5years</div> 
-    </div>
-    <div>
-        <img src="" alt="more pic of website" />
-    </div>
-    <div>
-        <div><p>01 overview</p></div>
-        <div><p>02 Problem</p></div>
-        <div><p>03 Design process </p></div>
-    <div><img src="" alt="figma flow" /></div>
-    <div>04 Selution and Resoults</div>
-    </div>
-    <div><h5>Visit the live site (if it excist)</h5></div>
-    <div>Other projects</div>
-</div>
-  )
+    //     <div id='broken-records'>
+    //     <div>
+    //         <h1>Broken Records</h1>
+    //         <p>Hello im still under development, pls comeback later! 😎👍</p>
+    //         <img src="" alt="The project" />
+    //     </div>
+    //     <div>
+    //        <div><p>My role</p></div>
+    //        <div><p>Team (Solo)</p></div>
+    //        <div>Duration 5years</div>
+    //     </div>
+    //     <div>
+    //         <img src="" alt="more pic of website" />
+    //     </div>
+    //     <div>
+    //         <div><p>01 overview</p></div>
+    //         <div><p>02 Problem</p></div>
+    //         <div><p>03 Design process </p></div>
+    //     <div><img src="" alt="figma flow" /></div>
+    //     <div>04 Selution and Resoults</div>
+    //     </div>
+    //     <div><h5>Visit the live site (if it excist)</h5></div>
+    //     <div>Other projects</div>
+    // </div>
+  );
 }
 
-export default BrokenRecords
+export default BrokenRecords;
