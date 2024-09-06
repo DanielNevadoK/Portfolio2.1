@@ -149,7 +149,7 @@ function BrokenRecords() {
         <div className="design-flow">
           <div className="full-lenght-img-container">
             <img
-              src="../Img/bagel_house_img/Bagel_House_company.png"
+              src="../Img/broken_records_img/BrokenRecords-full-page.png"
               alt="Full webpage"
             />
             <img
