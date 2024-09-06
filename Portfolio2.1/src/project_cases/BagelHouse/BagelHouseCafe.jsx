@@ -76,7 +76,7 @@ function BagelHouseCafe() {
           <p>(8h)</p>
         </div>
       </section>
-      <section className="pc-mid-container">
+      <section className="pc-mid-container-bagel">
         <div className="pc-mid-img-container">
           <img
             className="pc-mid-section-img1"
@@ -118,7 +118,7 @@ function BagelHouseCafe() {
             ipsum id.
           </p>
         </div>
-        <div className="design-flow">
+        <div className="design-flow-bagel">
           <div className="full-lenght-img-container">
             <img
               src="../Img/bagel_house_img/Bagel_House_company.png"
