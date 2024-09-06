@@ -113,7 +113,7 @@ function BrokenRecords() {
           />
           <img
             className="pc-mid-section-img2"
-            src="../Img/bagel_house_img/Bagel_House_company_bottom_half.png"
+            src="../Img/broken_records_img/BrokenRecords-btm-half.png"
             alt="more pic of website"
           />
         </div>
