@@ -100,7 +100,7 @@ p, a{
 .pc-page-devider p{
   font-size: 1vw;
 }
-.pc-role, .pc-team, .pc-duration, .pc-tek-lang, .pc-tools{
+.pc-role-bagel, .pc-team-bagel, .pc-duration-bagel, .pc-tek-lang-bagel, .pc-tools-bagel{
   padding: 1rem;
   width: 25%;
   display: flex;

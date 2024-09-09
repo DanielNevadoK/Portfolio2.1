@@ -29,7 +29,7 @@ function BagelHouseCafe() {
         </div>
       </section>
       <section className="pc-page-devider">
-        <div className="pc-role">
+        <div className="pc-role-bagel">
           <h3>MY ROLE</h3>
           <p>Frontend developer</p>
           <p>UX/UI Designer</p>
@@ -39,7 +39,7 @@ function BagelHouseCafe() {
           <h3>TECH STACK</h3>
           <img className="tech-logo" src="../Img/tech_stack_logos/figma.png" alt="Figma" />
         </div> */}
-        <div className="pc-tools">
+        <div className="pc-tools-bagel">
           <h3>TOOLS</h3>
           <div className="logos-container">
             <Tooltip title="Figma" arrow>
@@ -65,12 +65,12 @@ function BagelHouseCafe() {
             </Tooltip>
           </div>
         </div>
-        <div className="pc-team">
+        <div className="pc-team-bagel">
           <h3>TEAM</h3>
           <p>Design</p>
           <p>(Solo)</p>
         </div>
-        <div className="pc-duration">
+        <div className="pc-duration-bagel">
           <h3>DURATION</h3>
           <p>1 Day</p>
           <p>(8h)</p>

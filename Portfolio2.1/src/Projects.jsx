@@ -32,7 +32,7 @@ function Projects() {
               <p className="project-work">Bagel Cafe website</p>
             </div>
           </div>
-          <div className="medium-project-card">
+          {/* <div className="medium-project-card">
             <div className="medium-img-container">
               <Link to="/project_cases/HairSalonEs">
                 <img src="./Img/Peluceria.png" alt="" />
@@ -41,6 +41,17 @@ function Projects() {
             <div className="description-container">
               <p className="project-title">Spanish Hair Salon</p>
               <p className="project-work">Design Prototype</p>
+            </div>
+          </div> */}
+          <div className="medium-project-card">
+            <div className="medium-img-container">
+              <a href="#" target="_blank">
+                <img src="./Img/Korkortsnyckeln.png" alt="" />
+              </a>
+            </div>
+            <div className="description-container">
+              <p className="project-title">Driving School</p>
+              <p className="project-work">Modernizing a driving schools website</p>
             </div>
           </div>
           <div className="medium-project-card">
@@ -52,17 +63,6 @@ function Projects() {
             <div className="description-container">
               <p className="project-title">First Porfolio</p>
               <p className="project-work">Visit my first portfolio</p>
-            </div>
-          </div>
-          <div className="medium-project-card">
-            <div className="medium-img-container">
-              <a href="#" target="_blank">
-                <img src="./Img/Korkortsnyckeln.png" alt="" />
-              </a>
-            </div>
-            <div className="description-container">
-              <p className="project-title">Driving School</p>
-              <p className="project-work">Modernizing a driving schools website</p>
             </div>
           </div>
         </section>
