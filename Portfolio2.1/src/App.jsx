@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import BagelHouseCafe from "./project_cases/BagelHouse/BagelHouseCafe";
 import BrokenRecords from "./project_cases/broken_records/BrokenRecords";
 import ScrollToTop from "./ScrollToTop";
+import KnTrafikSkola from "./project_cases/kn_trafik_skola/KnTrafikSkola";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,6 +40,10 @@ function App() {
           <Route
             path="/project_cases/bagel-house-cafe"
             element={<BagelHouseCafe />}
+          />
+          <Route
+            path="/project_cases/kn-trafik-skola"
+            element={<KnTrafikSkola />}
           />
         </Routes>
       </ScrollToTop>

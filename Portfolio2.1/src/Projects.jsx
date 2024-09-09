@@ -45,9 +45,9 @@ function Projects() {
           </div> */}
           <div className="medium-project-card">
             <div className="medium-img-container">
-              <a href="#" target="_blank">
+              <Link to="/project_cases/kn-trafik-skola">
                 <img src="./Img/Korkortsnyckeln.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="description-container">
               <p className="project-title">Driving School</p>
