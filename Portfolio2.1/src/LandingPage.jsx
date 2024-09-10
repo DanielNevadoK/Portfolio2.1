@@ -16,7 +16,7 @@ function LandingPage() {
       <div className="landing-page-pic">
         <img src="/Img/No_bg.png" alt="Daniel" />
       </div>
-      <div className="job-title">
+      <div className="job-title-lp">
         <p>Frontend developer</p>
       </div>
     </div>

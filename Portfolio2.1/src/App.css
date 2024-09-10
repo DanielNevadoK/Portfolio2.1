@@ -215,24 +215,22 @@ a {
   transform: translate(76%, -10%);
 }
 
-.job-title p{
+.job-title-lp p{
   animation: fade-in 1.5s ease-in-out 1s forwards;
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 6rem;
+  display: flex;
   align-self: center;
   justify-content: center;
   z-index: 100;
   position: absolute;
   top: 90%;
-  left: 77%;
+  left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   width: 100%;
-}
-.job-title p{
-  
 }
 
 /* //PROJECTS// */
@@ -585,7 +583,7 @@ a {
     font-size: 7vw;
     left: 45%;
   }
-  .job-title {
+  .job-title-lp {
     width: 100%;
     display: flex;
     align-items: center;
@@ -635,7 +633,7 @@ a {
     top: 49%;
   }
 
-  .job-title {
+  .job-title-lp {
     font-size: 5.5vw;
   }
   .project-title h2 {
@@ -785,7 +783,7 @@ a {
     top: 38%;
     right: 33%;
   }
-  .job-title {
+  .job-title-lp {
     font-size: 10vw;
     width: 100%;
     display: flex;
@@ -966,7 +964,7 @@ a {
   .work_title {
     width: 45%;
   }
-  .job-title {
+  .job-title-lp {
     top: 90%;
     font-size: 13vw;
   }
