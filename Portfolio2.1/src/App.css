@@ -282,7 +282,12 @@ a {
 .small-project-card,
 .medium-project-card {
   width: 48%;
-  height: auto;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   margin-bottom: 2rem;
 }
@@ -301,8 +306,9 @@ a {
 
 .small-img-container,
 .medium-img-container {
+  border-radius: 10px 10px 0 0;
   width: 100%;
- max-height: 540px; /* Define the fixed height */
+ max-height: 340px; /* Define the fixed height */
   box-sizing: border-box;
   overflow: hidden;
   display: flex; /* Make sure it's a flexbox container */
