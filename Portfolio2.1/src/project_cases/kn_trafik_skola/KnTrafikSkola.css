@@ -240,15 +240,13 @@ h1{
   .head-foot-img-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 50vh;
+    width: 110%;
+    height: 40vh;
     gap: 1rem;
   }
-  .head-foot-img-container img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    display: block; 
+  .second-img-conatiner {
+    display: flex;
+    flex-direction: row;
   }
   .buttons-img-container{
     display: flex;

@@ -137,10 +137,10 @@ function KnTrafikSkola() {
               </div>
               <div className="component-img-container">
                 <div className="head-foot-img-container">
-                  <img src="../Img/bagel_house_img/Bagel_Header.png" alt="Header" />
-                  <img src="../Img/bagel_house_img/Bagel_footer.png" alt="Footer" />
+                  <img src="../Img/kn_trafik-skola_img/KN_TrafikSkola_PageDiveder_Update.png" alt="" />
+                  <img src="../Img/kn_trafik-skola_img/KN_Course_Update.png" alt="" />
                 </div>
-                <div className="buttons-img-container">
+                {/* <div className="buttons-img-container">
                   <img className="btn-img-1" src="../Img/bagel_house_img/Bagel_order.png" alt="Button" />
                   <img className="btn-img-2"
                     src="../Img/bagel_house_img/Bagel_find_us.png"
@@ -149,7 +149,7 @@ function KnTrafikSkola() {
                   <img className="btn-img-3"
                   src="../Img/bagel_house_img/Bagel_menu.png" 
                   alt="Button" />
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="number-block">
