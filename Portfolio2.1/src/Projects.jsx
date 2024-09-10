@@ -13,7 +13,7 @@ function Projects() {
           <div className="medium-project-card">
             <div className="medium-img-container">
               <Link to="/project_cases/broken-records">
-                <img src="./Img/Broken_records_pic.png" alt="" />
+                <img src="./Img/Broken_Records.png" alt="" />
               </Link>
             </div>
             <div className="description-container">
@@ -24,7 +24,7 @@ function Projects() {
           <div className="medium-project-card">
             <div className="medium-img-container">
               <Link to="/project_cases/bagel-house-cafe">
-                <img src="./Img/Bagel_street_house.png" alt="" />
+                <img src="./Img/Bagel_street_house_big.png" alt="" />
               </Link>
             </div>
             <div className="description-container">
