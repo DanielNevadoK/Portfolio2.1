@@ -237,14 +237,14 @@ background: linear-gradient(188deg, rgba(35, 35, 35, 0.493) 0%, rgba(12, 11, 11,
 .component-img-container{
   flex-direction: column;
 }
-.head-foot-img-container{
+.head-foot-img-container-bagel{
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 50vh;
   gap: 1rem;
 }
-.head-foot-img-container img{
+.head-foot-img-container-bagel img{
   height: 100%;
   width: 100%;
   object-fit: contain;
