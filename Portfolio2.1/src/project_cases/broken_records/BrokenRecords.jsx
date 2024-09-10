@@ -10,7 +10,7 @@ function BrokenRecords() {
       <section className="project-case-landing-page">
         <div className="pc-lp-title-container">
           <h1>Broken Records</h1>
-          <p>This is a vinly record webshop</p>
+          <p>Broken Records is a vinyl webshop designed to offer a seamless experience for music lovers. We revamped the layout, optimized the code, and enhanced the UX/UI for a modern, user-friendly platform.</p>
         </div>
         <div className="pc-lp-img-container">
           <img
