@@ -293,3 +293,6 @@ a {
   height: 100%;
   width: 100%;
 }
+.link-to-project {
+  text-decoration: underline;
+}

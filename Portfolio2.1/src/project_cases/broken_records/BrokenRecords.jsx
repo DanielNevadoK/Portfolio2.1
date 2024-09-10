@@ -29,11 +29,12 @@ function BrokenRecords() {
         <div className="pc-role">
           <h3>MY ROLE</h3>
           <p>Frontend developer</p>
+          <p>Backend developer</p>
           <p>UX/UI Designer</p>
           {/* <p>(Intern)</p> */}
         </div>
         <div className="pc-tek-lang">
-            <h3>TECH STACK</h3>
+          <h3>TECH STACK</h3>
           <div className="logos-container">
             <Tooltip title="React" arrow>
               <img
@@ -95,7 +96,7 @@ function BrokenRecords() {
           <h3>TEAM</h3>
           <p>Development & Design</p>
           <Tooltip title="Me & Jonael Ghidey">
-          <p>(2 people)</p>
+            <p>(2 people)</p>
           </Tooltip>
         </div>
         <div className="pc-duration">
@@ -122,28 +123,60 @@ function BrokenRecords() {
         <div className="number-block">
           <h3>01. OVERVIEW</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            architecto blanditiis doloribus ex ducimus dolor aperiam voluptas
-            quae. Quos voluptatem ipsum soluta temporibus nihil dolores aliquam
-            beatae esse ex ad.
+            Broken Records is a vinyl webshop designed for music lovers of all
+            ages. It’s a blend of the old and the new, where you can discover
+            the latest hits from today’s most popular artists while experiencing
+            music in its timeless, classic form. Explore a curated collection of
+            artists, pop culture icons, and genres, all in one place,
+            celebrating the rich diversity of music.
           </p>
         </div>
         <div className="number-block">
           <h3>02. PROBLEM</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            repudiandae, omnis quis sint consectetur, perferendis exercitationem
-            pariatur facere nesciunt voluptatum explicabo fugit vero ipsum sunt
-            dignissimos aut cum nisi quam.
+            This project originally began as a school assignment in a Frontend
+            Developer course. However, driven by our passion for coding and
+            tackling new challenges, two students,
+            <span>
+              {" "}
+              <a
+                href="https://www.linkedin.com/in/danielnevadokroger/"
+                target="_blank"
+              >
+                Daniel Nevado Kröger
+              </a>
+            </span>{" "}
+            &{" "}
+            <span>
+              <a
+                href="https://www.linkedin.com/in/jonael-ghidey-51a780239/"
+                target="_blank"
+              >
+                Jonael Ghidey 
+              </a>
+              {" "}
+            </span> 
+            saw potential in the webshop and decided to continue developing it
+            over the summer.
+            <br />
+            <br />
+            Our main goal was to refine the previous "rodeo" code we had written
+            with our initial group, while also revamping the layout and
+            improving the overall UX/UI. We aimed to give the site a modern,
+            professional look that would make it easier to navigate, allowing
+            visitors to quickly scan and find the records they’re searching for.
           </p>
         </div>
         <div className="number-block">
           <h3>03. DESIGN PROCESS</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
-            natus minus optio, veniam sed voluptatem, a pariatur labore laborum
-            libero quam in excepturi eligendi quae consequatur quidem molestiae
-            ipsum id.
+          The reshaping of our first project began with a team meeting. We started by breaking down what we wanted to achieve, assigning tasks, estimating timelines, and setting clear goals for the new Broken Records webshop.
+            <br />
+            <br />
+            Next, we moved on to designing the new layout using Figma. We discussed color schemes, layouts, and selecting imagery that would resonate with our audience. We focused on how the landing page would showcase the vinyls, and how the product pages would be organized. We also drew inspiration from existing designs, recognizing that there’s no need to reinvent the wheel.
+            <br />
+            <br />
+            Throughout the project, my role was multifaceted. Like my teammate, I worked as a frontend developer, UX/UI designer, and contributed to backend development.
           </p>
         </div>
         <div className="design-flow">
@@ -159,8 +192,14 @@ function BrokenRecords() {
           </div>
           <div className="component-img-container">
             <div className="head-foot-img-container">
-              <img src="../Img/broken_records_img/BrokenRecords-product-card-img.png" alt="Header" />
-              <img src="../Img/broken_records_img/BrokenRecord-produkt-page-img.png" alt="Footer" />
+              <img
+                src="../Img/broken_records_img/BrokenRecords-product-card-img.png"
+                alt="Header"
+              />
+              <img
+                src="../Img/broken_records_img/BrokenRecord-produkt-page-img.png"
+                alt="Footer"
+              />
             </div>
             {/* <div className="buttons-img-container">
               <img
@@ -184,10 +223,15 @@ function BrokenRecords() {
         <div className="number-block">
           <h3>04. Selution and Results</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
-            natus minus optio, veniam sed voluptatem, a pariatur labore laborum
-            libero quam in excepturi eligendi quae consequatur quidem molestiae
-            ipsum id.
+          After spending most of our time cleaning up the messy code from the first version, we were able to focus on refining and optimizing the website. The product listings became much clearer, with a consistent layout and unified design that was lacking before. We also improved the individual product pages, making them straightforward and easy to understand, resulting in a better user experience. But don't just take my word for it—see the project for yourself{" "}
+            <span className="link-to-project">
+              <a href="https://brokenrecords.vercel.app/" target="_blank">
+                here.
+              </a>
+            </span>
+            <br />
+            <br />
+            Looking at this project today (2024) 2 years later, with more experience under my belt, I can already spot areas I would approach differently or improve. Curious about what I would change? Want to discuss the future of web design or in need of a frontend developer? Feel free to contact me with the info below.
           </p>
         </div>
         <div className="number-block">
