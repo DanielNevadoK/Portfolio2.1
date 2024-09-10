@@ -174,7 +174,7 @@ function KnTrafikSkola() {
               </div>
             </div>
             <div className="number-block">
-              <h3>04. Selution and Results</h3>
+              <h3>04. Solution and Results</h3>
               <p>
               These changes resulted in a more engaging and user-friendly website. The updated design improved navigation, making it easier for potential students to find information and book classes. The clearer presentation of course packages and core values enhanced the communication of the school's offerings. Additionally, the improved website was favorably rated by Google, achieving top listings for searches related to driving schools in Järfälla. Unfortunately, my internship ended before I could assess whether the website led to increased user engagement and a higher rate of class bookings, but the redesign was aimed at aligning with the client’s goals of boosting their online presence and attracting more students.
               Want to discuss the website, share tips, or explore frontend development opportunities? Click the contact link below.<br />

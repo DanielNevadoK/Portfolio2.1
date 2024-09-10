@@ -221,7 +221,7 @@ function BrokenRecords() {
           </div>
         </div>
         <div className="number-block">
-          <h3>04. Selution and Results</h3>
+          <h3>04. Solution and Results</h3>
           <p>
           After spending most of our time cleaning up the messy code from the first version, we were able to focus on refining and optimizing the website. The product listings became much clearer, with a consistent layout and unified design that was lacking before. We also improved the individual product pages, making them straightforward and easy to understand, resulting in a better user experience. But don't just take my word for it—see the project for yourself{" "}
             <span className="link-to-project">

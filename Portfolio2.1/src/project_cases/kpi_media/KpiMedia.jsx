@@ -22,7 +22,7 @@ function KpiMedia() {
             <div><p>02 Problem</p></div>
             <div><p>03 Design process </p></div>
         <div><img src="" alt="figma flow" /></div>
-        <div>04 Selution and Resoults</div>
+        <div>04 Solution and Resoults</div>
         </div>
         <div><h5>Visit the live site (if it excist)</h5></div>
         <div>Other projects</div>

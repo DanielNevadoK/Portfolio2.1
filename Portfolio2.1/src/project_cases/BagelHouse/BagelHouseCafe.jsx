@@ -172,7 +172,7 @@ function BagelHouseCafe() {
           </div>
         </div>
         <div className="number-block">
-          <h3>04. Selution and Results</h3>
+          <h3>04. Solution and Results</h3>
           <p>
             The design was delivered on time, and my boss approved it before
             sending it to the client. I drew inspiration from similar
