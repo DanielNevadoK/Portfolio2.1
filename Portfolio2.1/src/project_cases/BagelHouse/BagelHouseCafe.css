@@ -334,14 +334,76 @@ a {
   }
 
   #bagel-house-cafe .full-lenght-img-container img {
-      height: 70%;
+    height: 70%;
   }
 
   #bagel-house-cafe .head-foot-img-container-bagel {
     height: 30vh;
+  }
+
+  #bagel-house-cafe .buttons-img-container {
+    height: 40%;
+  }
 }
 
- #bagel-house-cafe .buttons-img-container {
-  height: 40%;
-}
+@media (max-width: 426px) {
+  #bagel-house-cafe .project-case-landing-page {
+    flex-direction: column;
+    height: 80vh;
+  }
+  #bagel-house-cafe .pc-lp-title-container {
+    margin-bottom: -15%;
+  }
+  #bagel-house-cafe .pc-lp-title-container h1 {
+    font-size: 6vw;
+  }
+  #bagel-house-cafe .pc-lp-img-container {
+    width: 65%;
+  }
+  #bagel-house-cafe .pc-lp-img2 {
+    margin-right: -35%;
+  }
+  #bagel-house-cafe .pc-lp-img1 {
+    margin-right: 10%;
+  }
+  #bagel-house-cafe p {
+    font-size: 2.5vw;
+  }
+  #bagel-house-cafe .tech-logo {
+    width: 35px;
+    height: 35px;
+  }
+  #bagel-house-cafe .pc-page-devider {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  #bagel-house-cafe .pc-role-bagel,
+  .pc-team-bagel,
+  .pc-duration-bagel,
+  .pc-tek-lang-bagel,
+  .pc-tools-bagel {
+    width: 50%;
+    height: 20vh;
+  }
+  #bagel-house-cafe h3 {
+    font-size: 3.5vw;
+  }
+
+  #bagel-house-cafe .pc-mid-img-container img {
+    height: 100%;
+    border-radius: 10px;
+  }
+
+
+  #bagel-house-cafe .pc-mid-img-container {
+    height: 65vh;
+  }
+
+  #bagel-house-cafe .full-lenght-img-container {
+    width: 100%;
+  }
+  #bagel-house-cafe .full-lenght-img-container img {
+    height: 90%;
+    width: 100%;
+  }
 }
