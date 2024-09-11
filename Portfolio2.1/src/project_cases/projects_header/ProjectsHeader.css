@@ -3,8 +3,8 @@
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
-  z-index: 90;
-  padding: 1rem; /* Optional: adjust padding for spacing */
+  z-index: 999;
+  padding: 1rem; 
 }
 
 #back-to-projects-btn {
@@ -22,4 +22,17 @@
     font-style: normal;
   color: whitesmoke;
   font-size: 1.5rem;
+}
+@media (max-width: 426px) {
+  #back-to-projects-btn {
+    gap: 0.5rem;
+    padding: 0; /* Optional: adjust button styling */
+  }
+  #back-to-projects-btn svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  #back-to-projects-btn a {
+    font-size: 1rem;
+  }
 }
