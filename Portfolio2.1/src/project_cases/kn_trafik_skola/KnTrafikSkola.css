@@ -141,7 +141,7 @@ h1{
     object-fit: contain;
   }
   
-  .pc-mid-container, .pc-mid-img-container{
+  .pc-mid-container-kn{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -268,6 +268,176 @@ h1{
   .component-img-container img{
     height: 100%;
     width: 100%;
+  }
+  @media (max-width: 2560px) and (min-width: 2000px) {
+    #kn-trafik-skola h1 {
+      font-size: 2vw;
+    }
+    #kn-trafik-skola p {
+      font-size: 1vw;
+    }
+    #kn-trafik-skola .tech-logo-kn {
+      width: 75px ;
+      height: 75px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    #kn-trafik-skola p {
+      font-size: 1.3vw;
+    }
+    #kn-trafik-skola h1 {
+      font-size: 1.8vw;
+    }
+    #kn-trafik-skola .tech-logo-kn, .tech-stack-kn {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #kn-trafik-skola .project-case-landing-page {
+      flex-direction: column;
+      height: 85vh;
+    }
+    #kn-trafik-skola .pc-lp-title-container {
+      margin-bottom: -10%;
+      width: 100%;
+    }
+    #kn-trafik-skola .pc-lp-img-container {
+      width: 80%;
+    }
+    #kn-trafik-skola .pc-lp-img2 {
+      margin-right: -20%;
+    }
+    #kn-trafik-skola .pc-lp-img1 {
+      margin-right: 0%;
+    }
+    #kn-trafik-skola h1 {
+      font-size: 5vw;
+    }
+    #kn-trafik-skola p {
+      font-size: 1.7vw;
+    }
+    #kn-trafik-skola .tech-logo,.tech-stack {
+      width: 35px;
+      height: 35px;
+    }
+    #kn-trafik-skola .pc-mid-img-container img {
+      width: 50%;
+    }
+  
+    #kn-trafik-skola .full-lenght-img-container img {
+      height: 70%;
+    }
+  
+    #kn-trafik-skola .head-foot-img-container {
+      height: 30vh;
+    }
+  
+    #kn-trafik-skola .buttons-img-container {
+      height: 40%;
+    }
+  }
+  
+  @media (max-width: 426px) {
+    #kn-trafik-skola .project-case-landing-page {
+      flex-direction: column;
+      height: 80vh;
+    }
+    #kn-trafik-skola .pc-lp-title-container {
+      margin-bottom: -40%;
+    }
+    #kn-trafik-skola .pc-lp-title-container h1 {
+      font-size: 6vw;
+    }
+    #kn-trafik-skola .pc-lp-img-container {
+      width: 80%;
+    }
+    #kn-trafik-skola .pc-lp-img2 {
+      margin-right: -35%;
+    }
+    #kn-trafik-skola .pc-lp-img1 {
+      margin-right: 0%;
+    }
+    #kn-trafik-skola p {
+      font-size: 3vw;
+    }
+    #kn-trafik-skola .tech-logo-kn {
+      width: 40px;
+      height: 40px;
+    }
+    #kn-trafik-skola .pc-page-devider {
+      flex-wrap: wrap;
+      height: auto;
+    }
+    #kn-trafik-skola .pc-role-kn,
+    .pc-team-kn,
+    .pc-tek-lang-kn,
+    .pc-tools-kn,.pc-duration-kn {
+      width: 50%;
+      height: 20vh;
+    }
+    #kn-trafik-skola .pc-duration{
+      width: 100%;
+    }
+    #kn-trafik-skola h3 {
+      font-size: 4vw;
+    }
+  
+    #kn-trafik-skola .pc-mid-img-container {
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    #kn-trafik-skola .pc-mid-img-container img {
+      height: 80%;
+      width: 100%;
+      border-radius: 10px;
+    }
+    #kn-trafik-skola .full-lenght-img-container {
+      width: 100%;
+    }
+    #kn-trafik-skola .full-lenght-img-container img {
+      height: 90%;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    #kn-trafik-skola .pc-lp-title-container {
+      margin-bottom: -40%;
+    }
+    #kn-trafik-skola .pc-lp-title-container h1 {
+      font-size: 5vw;
+    }
+    #kn-trafik-skola .pc-lp-title-container p {
+      font-size: 3vw;
+    }
+    #kn-trafik-skola p {
+      font-size: 3.5vw;
+    }
+  
+    #kn-trafik-skola h3 {
+      font-size: 5vw;
+    }
+    #kn-trafik-skola .full-lenght-img-container img {
+      height: 80%;
+    }
+  }
+  @media (max-width: 321px) {
+    #kn-trafik-skola .tech-logo {
+      width: 30px;
+      height: 30px;
+    }
+  
+    #kn-trafik-skola .pc-mid-img-container {
+      width: 100%;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    #kn-trafik-skola .full-lenght-img-container img {
+      height: 60%;
+    }
   }
   
   

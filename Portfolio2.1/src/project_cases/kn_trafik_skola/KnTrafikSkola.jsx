@@ -16,7 +16,7 @@ function KnTrafikSkola() {
               </div>
             <div className="pc-lp-img-container">
               <img
-                className=" pc-lp-img2"
+                className="pc-lp-img2"
                 src="../Img/kn_trafik-skola_img/KN-LandingPage-Old.png"
                 alt="The project"
               />
