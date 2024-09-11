@@ -328,9 +328,20 @@ a {
   #bagel-house-cafe .tech-logo {
     width: 40px;
     height: 40px;
-  }¨
-  /* #bagel-house-cafe  .pc-mid-section-img2 {
-      margin-top: -50%;
-      z-index: 97;
-  } */
+  }
+  #bagel-house-cafe .pc-mid-img-container img {
+    width: 50%;
+  }
+
+  #bagel-house-cafe .full-lenght-img-container img {
+      height: 70%;
+  }
+
+  #bagel-house-cafe .head-foot-img-container-bagel {
+    height: 30vh;
+}
+
+ #bagel-house-cafe .buttons-img-container {
+  height: 40%;
+}
 }
