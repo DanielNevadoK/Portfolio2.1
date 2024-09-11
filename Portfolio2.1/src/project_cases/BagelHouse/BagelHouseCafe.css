@@ -426,3 +426,21 @@ a {
     height: 80%;
   }
 }
+@media (max-width: 321px) {
+  #bagel-house-cafe .pc-lp-title-container {
+    margin-bottom: -30%;
+  }
+  #bagel-house-cafe .pc-lp-img-container {
+    width: 90%;
+  }
+  #bagel-house-cafe .pc-mid-img-container {
+    height: 58vh;
+  }
+
+  #bagel-house-cafe .pc-lp-title-container h1 {
+    font-size: 8vw;
+  }
+  #bagel-house-cafe .full-lenght-img-container img {
+    height: 65%;
+  }
+}
