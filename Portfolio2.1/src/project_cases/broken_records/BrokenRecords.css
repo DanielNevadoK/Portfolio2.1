@@ -296,3 +296,162 @@ a {
 .link-to-project {
   text-decoration: underline;
 }
+@media (max-width: 2560px) and (min-width: 2000px) {
+  #broken-records p {
+    font-size: 1vw;
+  }
+  .tech-logo {
+    width: 75px !important;
+    height: 75px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  #broken-records p {
+    font-size: 1vw;
+  }
+  #broken-records .tech-logo, .tech-stack {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #broken-records .project-case-landing-page {
+    flex-direction: column;
+    height: 85vh;
+  }
+  #broken-records .pc-lp-title-container {
+    margin-bottom: -10%;
+    width: 100%;
+  }
+  #broken-records h1 {
+    font-size: 5vw;
+  }
+  #broken-records p {
+    font-size: 1.4vw;
+  }
+  #broken-records .tech-logo,.tech-stack {
+    width: 30px;
+    height: 30px;
+  }
+  #broken-records .pc-mid-img-container img {
+    width: 50%;
+  }
+
+  #broken-records .full-lenght-img-container img {
+    height: 70%;
+  }
+
+  #broken-records .head-foot-img-container {
+    height: 30vh;
+  }
+
+  #broken-records .buttons-img-container {
+    height: 40%;
+  }
+}
+
+@media (max-width: 426px) {
+  #broken-records .project-case-landing-page {
+    flex-direction: column;
+    height: 80vh;
+  }
+  #broken-records .pc-lp-title-container {
+    margin-bottom: -15%;
+  }
+  #broken-records .pc-lp-title-container h1 {
+    font-size: 6vw;
+  }
+  #broken-records .pc-lp-img-container {
+    width: 80%;
+  }
+  #broken-records .pc-lp-img2 {
+    margin-right: -35%;
+  }
+  #broken-records .pc-lp-img1 {
+    margin-right: 0%;
+  }
+  #broken-records p {
+    font-size: 3vw;
+  }
+  #broken-records .tech-logo {
+    width: 40px;
+    height: 40px;
+  }
+  #broken-records .pc-page-devider {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  #broken-records .pc-role,
+  .pc-team,
+  .pc-tek-lang,
+  .pc-tools {
+    width: 50%;
+    height: 20vh;
+  }
+  #broken-records .pc-duration{
+    width: 100%;
+  }
+  #broken-records h3 {
+    font-size: 4vw;
+  }
+
+  #broken-records .pc-mid-img-container {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  #broken-records .pc-mid-img-container img {
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  #broken-records .full-lenght-img-container {
+    width: 100%;
+  }
+  #broken-records .full-lenght-img-container img {
+    height: 90%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 376px) {
+  #broken-records .pc-lp-title-container {
+    margin-bottom: -25%;
+  }
+  #broken-records .pc-lp-title-container h1 {
+    font-size: 7vw;
+  }
+  #broken-records p {
+    font-size: 3.5vw;
+  }
+
+  #broken-records h3 {
+    font-size: 5vw;
+  }
+  #broken-records .full-lenght-img-container img {
+    height: 80%;
+  }
+}
+@media (max-width: 321px) {
+  #broken-records .pc-lp-title-container {
+    margin-bottom: -35%;
+  }
+  #broken-records .tech-logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  #broken-records .pc-mid-img-container {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+
+  #broken-records .pc-lp-title-container h1 {
+    font-size: 8vw;
+  }
+  #broken-records .full-lenght-img-container img {
+    height: 60%;
+  }
+}
