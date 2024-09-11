@@ -220,7 +220,7 @@ a {
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 6rem;
+  /* font-size: 6rem; */
   display: flex;
   align-self: center;
   justify-content: center;
@@ -308,12 +308,12 @@ a {
 .medium-img-container {
   border-radius: 10px 10px 0 0;
   width: 100%;
- max-height: 340px; /* Define the fixed height */
+ max-height: 340px; 
   box-sizing: border-box;
   overflow: hidden;
-  display: flex; /* Make sure it's a flexbox container */
-  align-items: center; /* Center the image vertically */
-  justify-content: center; /* Center the image horizontally */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
 }
 .small-project-card img,
 .medium-project-card img {
@@ -595,7 +595,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 6rem;
+    font-size: 8rem;
   }
 }
 @media (max-width: 1440px) {
@@ -641,7 +641,11 @@ a {
   }
 
   .job-title-lp {
-    font-size: 5.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
   }
   .project-title h2 {
     font-size: 7vw;
@@ -971,9 +975,13 @@ a {
   .work_title {
     width: 45%;
   }
-  .job-title-lp p{
-    top: 90%;
-    font-size: 4.5rem;
+  .job-title-lp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10%;
+    font-size: 2.5rem;
   }
   .cv-text-and-icon-container {
     padding: 0;
