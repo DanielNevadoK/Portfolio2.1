@@ -346,7 +346,7 @@ h1{
       height: 80vh;
     }
     #kn-trafik-skola .pc-lp-title-container {
-      margin-bottom: -40%;
+      justify-content: flex-end;
     }
     #kn-trafik-skola .pc-lp-title-container h1 {
       font-size: 6vw;
@@ -404,9 +404,6 @@ h1{
   }
   
   @media (max-width: 376px) {
-    #kn-trafik-skola .pc-lp-title-container {
-      margin-bottom: -40%;
-    }
     #kn-trafik-skola .pc-lp-title-container h1 {
       font-size: 5vw;
     }

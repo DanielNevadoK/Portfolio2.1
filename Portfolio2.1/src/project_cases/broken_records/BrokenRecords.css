@@ -358,7 +358,7 @@ a {
     height: 80vh;
   }
   #broken-records .pc-lp-title-container {
-    margin-bottom: -15%;
+    justify-content: flex-end;
   }
   #broken-records .pc-lp-title-container h1 {
     font-size: 6vw;
@@ -416,9 +416,6 @@ a {
 }
 
 @media (max-width: 376px) {
-  #broken-records .pc-lp-title-container {
-    margin-bottom: -25%;
-  }
   #broken-records .pc-lp-title-container h1 {
     font-size: 7vw;
   }
@@ -434,9 +431,6 @@ a {
   }
 }
 @media (max-width: 321px) {
-  #broken-records .pc-lp-title-container {
-    margin-bottom: -35%;
-  }
   #broken-records .tech-logo {
     width: 30px;
     height: 30px;
