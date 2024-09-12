@@ -353,6 +353,7 @@ a {
   }
   #bagel-house-cafe .pc-lp-title-container {
     margin-bottom: -15%;
+    justify-content: flex-end;
   }
   #bagel-house-cafe .pc-lp-title-container h1 {
     font-size: 6vw;
