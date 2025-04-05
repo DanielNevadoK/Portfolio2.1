@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header";
+import ProjectsBtn from "./components/btns/projects-btn/main";
+import AboutMe from "./components/btns/about-me-btn/main";
+import ContactBtn from "./components/btns/contact-btn/main";
 
 function LandingPage() {
   return (
@@ -8,9 +11,11 @@ function LandingPage() {
       <Header />
       <div className="title-container">
           <h1 className="mini-title ">Daniel Nevado Kröger</h1>
-          <button>Projects</button>
-          <button>About me</button>
-          <button>Cont</button>
+          <div>
+          <ProjectsBtn />
+          <AboutMe />
+          <ContactBtn />
+          </div>
       </div>
       <div className="landing-page-pic">
         <img src="/Img/No_bg.png" alt="Daniel" />
