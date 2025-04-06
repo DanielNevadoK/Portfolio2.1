@@ -34,18 +34,6 @@ function Resume() {
               <p>06/19 - 18/24 :</p>
               <p className="btm-border">Traffick managment - MTR Nordic AB</p>
             </div>
-            {/* <div className="work_date">
-              <p>02/24 - 05/24</p>
-              <p>12/23 - 03/24</p>
-              <p>04/23 - 10/23</p>
-              <p>06/19 - 18/24</p>
-            </div> */}
-            {/* <div className="work_company">
-              <p>KPI Media</p>
-              <p>Stryda AB</p>
-              <p>MTR Nordic AB</p>
-              <p>MTR Nordic AB</p>
-            </div> */}
           </div>
           <div className="skills-container">
             <div className="first-skills-wrp-container">
