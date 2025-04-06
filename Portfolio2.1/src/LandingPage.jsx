@@ -9,13 +9,13 @@ function LandingPage() {
   return (
     <div id="landing-page">
       <Header />
-      <div className="title-container">
-          <h1 className="mini-title ">Daniel Nevado Kröger</h1>
-          <div>
+      <div className="title w-full p-6">
+        <h1 className="mini-title">Daniel Nevado Kröger</h1>
+        <div className="btn-container flex gap-11">
           <ProjectsBtn />
           <AboutMe />
           <ContactBtn />
-          </div>
+        </div>
       </div>
       <div className="landing-page-pic">
         <img src="/Img/No_bg.png" alt="Daniel" />
