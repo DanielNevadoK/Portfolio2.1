@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
 
-  /*Colors*/
   /*Buttons*/
   .primary-btn{
     @apply min-w-28 max-h-11 rounded-md border-2 border-solid border-[#AEE1FE] bg-transparent hover:bg-[#AEE1FE] p-2 text-base font-semibold text-[#AEE1FE] hover:text-[#164053];
@@ -33,8 +32,7 @@ a {
 /* LANDING PAGE */
 #landing-page {
   width: 100%;
-  height: 100vh;
-  overflow-y: scroll;
+  height: 105vh;
   background: linear-gradient(
     0deg,
     rgba(18, 51, 66, 1) 0%,

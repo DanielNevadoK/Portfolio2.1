@@ -26,15 +26,20 @@ function Header() {
    z-50
    `}
     >
-      <div className="w-[33%] flex justify-start content-center">
-        <img src="" alt="" />
+      <div className="w-[33%] max-h-9 flex justify-start content-center">
+        <img
+         className="max-h-full"
+         src="../Img/frontend-logo/frontend_developer.png" alt="" />
       </div>
       <div className="w-[33%] max-h-9 flex justify-center content-center">
+        <a href="https://frontenddani.vercel.app/">
         <img
           className="max-h-full"
           src="../Img/nk-logo/nk_logo.png"
           alt="{ .nk } Logo"
         />
+        </a>
+        
       </div>
       <ul
         className={`head-menu-items 

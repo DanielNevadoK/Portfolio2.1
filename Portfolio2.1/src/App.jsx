@@ -9,6 +9,7 @@ import BagelHouseCafe from "./project_cases/BagelHouse/BagelHouseCafe";
 import BrokenRecords from "./project_cases/broken_records/BrokenRecords";
 import ScrollToTop from "./ScrollToTop";
 import KnTrafikSkola from "./project_cases/kn_trafik_skola/KnTrafikSkola";
+import Header from "./Header";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
             path="/"
             element={
               <>
+                <Header />
                 <LandingPage />
                 <Projects />
                 <Resume />
