@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header";
 import ProjectsBtn from "./components/btns/projects-btn/main";
 import AboutMe from "./components/btns/about-me-btn/main";
 import ContactBtn from "./components/btns/contact-btn/main";
@@ -10,7 +9,6 @@ import LeftTextAnimation from "./components/text-animation/left-text-animation/m
 function LandingPage() {
   return (
     <div id="landing-page" className="-mt-24 ">
-      {/* <Header /> */}
       <div className="title w-full p-6 mt-[20%]">
         <h1 className="mini-title">Daniel Nevado Kröger</h1>
         <div className="btn-container flex gap-11">
