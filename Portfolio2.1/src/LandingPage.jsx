@@ -9,7 +9,7 @@ import LeftTextAnimation from "./components/text-animation/left-text-animation/m
 function LandingPage() {
   return (
     <div id="landing-page" className="-mt-24 ">
-      <div className="title w-full p-6 mt-[20%]">
+      <div className="title w-full p-6 mt-[25%]">
         <h1 className="mini-title">Daniel Nevado Kröger</h1>
         <div className="btn-container flex gap-11">
           <ProjectsBtn />
