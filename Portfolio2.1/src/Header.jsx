@@ -27,9 +27,6 @@ function Header() {
    `}
     >
       <div className="w-[33%] max-h-9 flex justify-start content-center">
-        <img
-         className="max-h-full"
-         src="../Img/frontend-logo/frontend_developer.png" alt="" />
       </div>
       <div className="w-[33%] max-h-9 flex justify-center content-center">
         <a href="https://frontenddani.vercel.app/">
