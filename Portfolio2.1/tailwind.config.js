@@ -9,8 +9,11 @@ module.exports = {
       },
       backgroundImage: {
         'custom-fade': 'linear-gradient(180deg, rgba(22,64,83,0) 0%, rgba(22,64,83,1) 97%)',
-      }
-    },
+      },
+      fontFamily: {
+        fugaz: ['"Fugaz One"', 'sans-serif'],
+      },
+    }
   },
   plugins: [],
 }
