@@ -18,10 +18,6 @@ function Projects() {
                 <img src="./Img/Broken_Records.png" alt="" />
               </Link>
             </div>
-            {/* <div className="description-container">
-              <p className="project-card-title">Broken Records</p>
-              <p className="project-work"> Vinyl Records Webshop</p>
-            </div> */}
           </div>
           <div className="project-card">
             <div className="img-container">
@@ -29,10 +25,6 @@ function Projects() {
                 <img src="./Img/Bagel_street_house_big.png" alt="" />
               </Link>
             </div>
-            {/* <div className="description-container">
-              <p className="project-title">Bagel House Café</p>
-              <p className="project-work">Bagel Cafe website</p>
-            </div> */}
           </div>
           <div className="project-card">
             <div className="img-container">
@@ -40,10 +32,6 @@ function Projects() {
                 <img src="./Img/Korkortsnyckeln.png" alt="" />
               </Link>
             </div>
-            {/* <div className="description-container">
-              <p className="project-title">Driving School</p>
-              <p className="project-work">Modernizing a driving schools website</p>
-            </div> */}
           </div>
           <div className="project-card">
             <div className="img-container">
@@ -51,10 +39,7 @@ function Projects() {
                 <img src="./Img/First_Portfolio.png" alt="" />
               </a>
             </div>
-            {/* <div className="description-container">
-              <p className="project-title">First Porfolio</p>
-              <p className="project-work">Visit my first portfolio</p>
-            </div> */}
+
           </div>
         </section>
       </div>
