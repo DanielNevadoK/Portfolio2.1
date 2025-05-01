@@ -14,7 +14,7 @@ function LandingPage() {
     bg-[radial-gradient(circle,_#0B1922_0%,_#164053_20%,_#03131B_55%)]
 "
     >
-      <div className="title w-full p-6 mt-[25%]">
+      <div className="title w-full p-6 mt-[25%] flex flex-col items-center justify-center z-[9999]">
         <h1 id="fugaz-one" className="mini-title flex align-center ">
           Daniel Nevado Kröger</h1>
         <div className="btn-container flex gap-11">
