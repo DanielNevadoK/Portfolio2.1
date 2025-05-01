@@ -15,28 +15,28 @@ function Projects() {
           <div className="project-card">
             <div className="img-container">
               <Link to="/project_cases/broken-records">
-                <img src="./Img/Broken_Records.png" alt="" />
+                <img src="./Img/BrokenRecordsNew.png" alt="" />
               </Link>
             </div>
           </div>
           <div className="project-card">
             <div className="img-container">
               <Link to="/project_cases/bagel-house-cafe">
-                <img src="./Img/Bagel_street_house_big.png" alt="" />
+                <img src="./Img/BagelStreetCafeNew.png" alt="" />
               </Link>
             </div>
           </div>
           <div className="project-card">
             <div className="img-container">
               <Link to="/project_cases/kn-trafik-skola">
-                <img src="./Img/Korkortsnyckeln.png" alt="" />
+                <img src="./Img/KNLandingPageNew.png" alt="" />
               </Link>
             </div>
           </div>
           <div className="project-card">
             <div className="img-container">
               <a href="https://dnk-dev.vercel.app/" target="_blank"> 
-                <img src="./Img/First_Portfolio.png" alt="" />
+                <img src="./Img/FirstPortfolioNew.png" alt="" />
               </a>
             </div>
 
