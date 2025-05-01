@@ -6,11 +6,15 @@
   margin: 0;
   padding: 0;
 
-  /*Buttons*/
-  .primary-btn{
-    @apply min-w-28 max-h-11 rounded-md border-2 border-solid border-[#AEE1FE] bg-transparent hover:bg-[#AEE1FE] p-2 text-base font-semibold text-[#AEE1FE] hover:text-[#164053];
+  /*Fonts*/
+  .fugaz-one{
+    @apply font-fugaz font-normal;
   }
 
+  /*Buttons*/
+  .primary-btn {
+    @apply min-w-28 max-h-11 rounded-md border-2 border-solid border-[#AEE1FE] bg-transparent hover:bg-[#AEE1FE] p-2 text-base font-semibold text-[#AEE1FE] hover:text-[#164053];
+  }
 }
 
 * {
@@ -29,27 +33,10 @@ a {
   font-style: normal;
 }
 
-/* LANDING PAGE */
 #burger-menu {
   display: none;
 }
-
-.landing-page-pic {
-  animation: fade-in 1s ease-in-out 1s forwards;
-  max-width: 1350px;
-  overflow: hidden;
-  align-items: center;
-  position: absolute;
-  top: 68%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-.landing-page-pic img {
-  max-width: 130%;
-  height: auto;
-  display: block;
-}
+/* LANDING PAGE */
 
 .title {
   width: 100%;
@@ -80,7 +67,7 @@ a {
   z-index: 100;
   opacity: 0;
 }
-.job-title-lp{
+.job-title-lp {
   margin-top: 30%;
   width: 100%;
   display: flex;
