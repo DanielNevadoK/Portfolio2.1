@@ -23,10 +23,10 @@ function LandingPage() {
           <ContactBtn />
         </div>
       </div>
-      <div className="landing-page-pic z-10 max-w-[1350px] overflow-hidden items-center absolute top-[68%] left-[45%] translate-x-[-50%] translate-y-[-50%] ">
+      <div className="landing-page-pic z-10 max-w-[1350px] items-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <img
-          className="max-w-[130%] height-auto display-block"
-          src="/Img/No_bg.png"
+          className="max-w-[100%] height-auto display-block animate-spin-and-scale"
+          src="/Img/Daniel-in-space.png"
           alt="Daniel"
         />
       </div>
