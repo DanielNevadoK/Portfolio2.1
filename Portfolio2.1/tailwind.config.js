@@ -6,8 +6,8 @@ module.exports = {
       keyframes: {
         "spin-and-scale": {
           "0%": { transform: "rotate(0deg) scale(1)" },
-          "50%": { transform: "rotate(360deg) scale(0.1)" },
-          "100%": { transform: "rotate(0deg) scale(0.6)" },
+          "50%": { transform: "rotate(360deg) scale(0.0)" },
+          "100%": { transform: "rotate(0deg) scale(0.8)" },
         },
       },
       colors: {
@@ -22,7 +22,7 @@ module.exports = {
         fugaz: ['"Fugaz One"', "sans-serif"],
       },
       animation: {
-        'spin-and-scale': 'spin-and-scale 300s ease-in-out forwards',
+        'spin-and-scale': 'spin-and-scale 150s ease-in-out forwards',
 
       },
     },
