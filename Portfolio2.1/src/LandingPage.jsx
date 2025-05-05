@@ -15,7 +15,7 @@ function LandingPage() {
 "
     >
       <div className="title w-full p-6 mt-[25%] flex flex-col items-center justify-center z-[9999]">
-        <h1 id="fugaz-one" className="mini-title flex align-center ">
+        <h1  className="font-bebas font-normal text-[2.5rem] mini-title flex align-center ">
           Daniel Nevado Kröger</h1>
         <div className="btn-container flex gap-11">
           <ProjectsBtn />
@@ -30,7 +30,7 @@ function LandingPage() {
           alt="Daniel"
         />
       </div>
-      <div className="job-title-lp">
+      <div className="relative mt-[-3%] job-title-lp bottom-0 w-full flex flex-col items-start font-pattaya font-normal not-italic text-[9rem]">
         <RightTextAnimation />
         <LeftTextAnimation />
       </div>

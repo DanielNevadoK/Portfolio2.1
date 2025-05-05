@@ -20,10 +20,11 @@ module.exports = {
       },
       fontFamily: {
         fugaz: ['"Fugaz One"', "sans-serif"],
+        pattaya: ['"Pattaya"', "sans-serif"],
+        bebas: ['"Bebas Neue"', "sans-serif"],
       },
       animation: {
-        'spin-and-scale': 'spin-and-scale 150s ease-in-out forwards',
-
+        "spin-and-scale": "spin-and-scale 150s ease-in-out forwards",
       },
     },
   },
