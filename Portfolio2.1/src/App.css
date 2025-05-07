@@ -717,15 +717,22 @@ a {
     height: 100vh;
     max-width: 426px;
   }
-  .landing-page-pic {
-    top: 0%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
+  @media (max-width: 426px) {
+    .landing-page-pic {
+      position: absolute;      
+      top: 50%;                
+      left: 50%;              
+      transform: translate(-50%, -50%); 
+      width: 70%;              
+      max-width: 100%;        
+    }
+    .landing-page-pic img {
+      display: block;         
+      width: 100%;             
+      height: auto;           
+    }
   }
-  .landing-page-pic img {
-    height: 70%;
-  }
+  
   .title .mini-title {
     font-size: 2.5rem;
     margin-top: 60%;     
