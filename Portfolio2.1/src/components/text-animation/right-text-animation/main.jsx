@@ -1,14 +1,16 @@
-import React from 'react'
+// RightTextAnimation.tsx
+import React from 'react';
 
-function RightTextAnimation() {
+const items = ["Frontend Developer", "Figma", "JavaScript", "HTML", "CSS", "Vue.js", "Tailwind CSS"];
+
+export default function RightTextAnimation() {
   return (
-    <div className='lp-text-animation w-full flex flex-column max-h-full min-w-fit gap-12'>
-      <h4 className="whitespace-nowrap">Frontend Developer</h4>
-      <h4>Figma</h4>
-      <h4>JavaScript</h4>
-      <h4>HTML</h4>
+    <div className="overflow-hidden w-full">
+      <div className="flex w-[200%] whitespace-nowrap gap-12 animate-marquee will-change-transform">
+        {items.concat(items).map((text, i) => (
+          <h4 key={i} className="whitespace-nowrap">{text}</h4>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
-
-export default RightTextAnimation

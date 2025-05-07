@@ -30,10 +30,11 @@ function LandingPage() {
           alt="Daniel"
         />
       </div>
-      <div className="relative mt-[-3%] job-title-lp bottom-0 w-full flex flex-col items-start font-pattaya font-normal not-italic text-[9rem]">
-        <RightTextAnimation />
-        <LeftTextAnimation />
-      </div>
+      <div className="relative mt-[-3%] job-title-lp bottom-0 w-full flex flex-col items-start font-pattaya font-normal not-italic text-[9rem] overflow-hidden">
+  <RightTextAnimation />
+  <LeftTextAnimation />
+</div>
+
       <div className="absolute inset-0 bg-gradient-to-t from-[rgba(22,64,80,1)] from-1% to-[rgba(22,64,80,0)] to-45% z-20 pointer-events-none" />
     </div>
   );

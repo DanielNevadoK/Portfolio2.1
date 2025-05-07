@@ -1,15 +1,16 @@
-import React from 'react'
+// LeftTextAnimation.tsx
+import React from 'react';
 
-function LeftTextAnimation() {
+const items = ["Web Design", "React", "CMS", "UX/UI", "TypeScript", "Node.js", "API's", "Wordpress"];
+
+export default function LeftTextAnimation() {
   return (
-    <div className='lp-text-animation w-full flex flex-column max-h-full min-w-fit gap-12'>
-      <h4 className="whitespace-nowrap">Webb Design</h4>
-      <h4>React</h4>
-      <h4>CMS</h4>
-      <h4>UX/UI</h4>
-      <h4>TypeScript</h4>
+    <div className="overflow-hidden w-full">
+      <div className="flex w-[200%] whitespace-nowrap gap-12 animate-marquee-reverse will-change-transform">
+        {items.concat(items).map((text, i) => (
+          <h4 key={i} className="whitespace-nowrap">{text}</h4>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
-
-export default LeftTextAnimation
