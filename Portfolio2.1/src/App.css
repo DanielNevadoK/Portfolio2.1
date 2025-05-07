@@ -405,7 +405,7 @@ a {
   }
   .title .mini-title {
     font-size: 3rem;
-    margin-top: 20%;     
+    margin-top: 10%;     
   }
   .moving-txt-container{
     margin-top: auto;
@@ -542,11 +542,11 @@ a {
   }
   .title .mini-title {
     font-size: 3rem;
-    margin-top: 15%;     
+    margin-top: 20%;     
   }
 
   .moving-txt-container{
-    margin-top: 0;
+    margin-top: 20%;
   }
   .left-txt-animation, .right-txt-animation{
     font-size: 5rem;
@@ -563,15 +563,6 @@ a {
     width: 100%;
     max-height: 100svh;
     gap: 0;
-  }
-  .mini-title1 {
-    font-size: 8vw;
-    top: 15%;
-  }
-  .mini-title2 {
-    font-size: 8vw;
-    top: 38%;
-    right: 33%;
   }
   .job-title-lp {
     font-size: 5rem;
