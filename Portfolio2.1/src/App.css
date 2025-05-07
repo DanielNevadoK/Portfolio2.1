@@ -720,7 +720,7 @@ a {
     max-width: 426px;
   }
   .landing-page-pic {
-    top: 5%;
+    top: 0%;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
