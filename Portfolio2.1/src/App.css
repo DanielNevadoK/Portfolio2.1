@@ -718,11 +718,12 @@ a {
   #landing-page {
     height: 100vh;
     max-width: 426px;
-  }.landing-page-pic {
-    top: 15%;
+  }
+  .landing-page-pic {
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
+    width: 90%;
   }
   .landing-page-pic img {
     height: 100%;
