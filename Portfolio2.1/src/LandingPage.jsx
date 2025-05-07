@@ -30,7 +30,7 @@ function LandingPage() {
           alt="Daniel"
         />
       </div>
-      <div className="relative mt-[-3%] job-title-lp bottom-0 w-full flex flex-col items-start font-pattaya font-normal not-italic text-[9rem] overflow-hidden">
+      <div className="moving-txt-container relative mt-[-3%] job-title-lp bottom-0 w-full flex flex-col items-start font-pattaya font-normal not-italic text-[9rem] overflow-hidden">
   <RightTextAnimation />
   <LeftTextAnimation />
 </div>

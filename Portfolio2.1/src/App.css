@@ -403,26 +403,12 @@ a {
     transform: translateX(-50%);
     width: 70%;
   }
-  .page-title {
-    font-size: 25vw;
-    top: 35%;
+  .title .mini-title {
+    font-size: 3rem;
+    margin-top: 20%;     
   }
-
-  .mini-title1 {
-    font-size: 6vw;
-    top: 22%;
-  }
-  .mini-title2 {
-    font-size: 6vw;
-    top: 49%;
-  }
-
-  .job-title-lp {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5rem;
+  .moving-txt-container{
+    margin-top: auto;
   }
   .project-title h2 {
     font-size: 7vw;
@@ -538,16 +524,26 @@ a {
     height: 100svh;
     overflow: hidden;
   }
+
   .landing-page-pic {
-    position: absolute;
-    top: -15%;
+    top: -5%;
     left: 50%;
-    width: 100%;
-    max-width: 100vw;
-    overflow: hidden;
+    transform: translateX(-50%);
+    width: 70%;
   }
   .landing-page-pic img {
-    height: 1100px;
+    height: 100%;
+  }
+  .title .mini-title {
+    font-size: 3rem;
+    margin-top: 20%;     
+  }
+
+  .moving-txt-container{
+    margin-top: 10%;
+  }
+  .left-txt-animation, .right-txt-animation{
+    font-size: 5rem;
   }
   .page-title {
     font-size: 27vw;
@@ -716,32 +712,30 @@ a {
   #landing-page {
     height: 100vh;
     max-width: 426px;
-  }
-  .landing-page-pic {
-    top: -5%;
+  }.landing-page-pic {
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
-    display: flex;
-    justify-content: center;
   }
   .landing-page-pic img {
-    max-width: 170%;
-    height: auto;
-    max-height: 170vh;
-    width: auto;
+    height: 100%;
   }
-  .page-title {
-    font-size: 27vw;
-    top: 20%;
+  .title .mini-title {
+    font-size: 2.5rem;
+    margin-top: 60%;     
   }
-  .mini-title1 {
-    font-size: 8vw;
-    top: 14%;
+
+  .moving-txt-container{
+    margin-top: 20%;
   }
-  .mini-title2 {
-    font-size: 8vw;
-    top: 26%;
-    right: 33%;
+  .left-txt-animation, .right-txt-animation{
+    font-size: 5rem;
   }
+  .btn-container {
+    gap: 1rem;
+  }
+
   /* .experience-container p {
     font-size: 1.5vw;
   } */
