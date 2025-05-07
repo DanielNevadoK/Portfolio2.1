@@ -25,12 +25,22 @@ function Resume() {
           </div>
           <div className="experience-container">
             <div className="work_title">
+            <p>04/25 - now :</p>
+              <p className="btm-border">
+                Frontend developer (Freelance) - Lynora AI
+              </p>
               <p>02/24 - 05/24 :</p>
-              <p className="btm-border">Frontend developer (Internship) - KPI Media</p>
+              <p className="btm-border">
+                Frontend developer (Internship) - KPI Media
+              </p>
               <p>12/23 - 03/24 :</p>
-              <p className="btm-border">Frontend developer (Internship) - Stryda AB</p>
+              <p className="btm-border">
+                Frontend developer (Internship) - Stryda AB
+              </p>
               <p>04/23 - 10/23 :</p>
-              <p className="btm-border">IT Projectmanager / Scrum Master - MTR Nordic AB</p>
+              <p className="btm-border">
+                IT Projectmanager / Scrum Master - MTR Nordic AB
+              </p>
               <p>06/19 - 18/24 :</p>
               <p className="btm-border">Traffick managment - MTR Nordic AB</p>
             </div>
@@ -51,6 +61,8 @@ function Resume() {
                     <p>React</p>
                     <p>HTML</p>
                     <p>CSS</p>
+                    <p>CMS</p>
+                    <p>Netx.js</p>
                   </div>
                 </div>
               </div>
@@ -58,9 +70,12 @@ function Resume() {
                 <div className="soft-skills-section2">
                   <div className="SS-title">
                     <p>UX/UI</p>
-                    <p>Git/GitHub</p>
+                    <p>Git</p>
+                    <p>GitHub</p>
                     <p>Figma</p>
                     <p>PhotoShop</p>
+                    <p>Wordpress</p>
+                    <p>Vue.js</p>
                   </div>
                 </div>
               </div>
@@ -109,17 +124,23 @@ function Resume() {
             <div className="cv-text-and-icon-container">
               <div className="cv-text">
                 <p>
-                  "I’m driven by a deep passion for design and crafting
-                  exceptional user experiences. My unique background as a train
-                  conductor and traffic manager in the metro for 8 years has
-                  instilled in me a strong sense of discipline, precision, and
-                  problem-solving. Alongside my studies in frontend development,
-                  my longstanding passion for acting—dating back to high
-                  school—has shaped my creative perspective, allowing me to
-                  approach projects with empathy and storytelling at the
-                  forefront. Each project I work on contributes to my continuous
-                  growth and learning, pushing me to refine my skills and
-                  deliver even more impactful, user-centered designs."
+                  My journey into tech hasn’t been traditional and that’s my
+                  biggest strength. For nearly a decade, I worked as a traffic
+                  manager in Stockholm’s metro, where I learned how to stay
+                  sharp under pressure, solve problems fast, and communicate
+                  when it matters most. At the same time, I was developing
+                  another skill, storytelling through acting. It’s taken me onto
+                  sets, taught me how to understand people deeply, and it still
+                  shapes how I design and build today. Now, as a frontend
+                  developer, I combine that structure and empathy to create
+                  interfaces that actually feel intuitive. I’ve worked closely
+                  with backend teams, marketers, and CEOs, building scalable
+                  apps, improving UX flows, and always thinking one step ahead.
+                  Outside of code, I competed in Brazilian Jiu-Jitsu, where I
+                  train focus and adaptability daily, two skills I bring into
+                  every line of code I write. I’m not just here to build
+                  features. I’m here to bring clarity, purpose, and storytelling
+                  into every part of the product experience.
                 </p>
               </div>
               {/* <a href="./public/doc/Daniel_Nevado_Kröger_CV_(eng).pdf" download>
