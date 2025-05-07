@@ -177,6 +177,7 @@ a {
   font-size: 1.5vw;
   letter-spacing: 2px;
 }
+
 .experience-container,
 .soft-skills,
 .soft-skills-section2 {
@@ -247,7 +248,7 @@ a {
 }
 .cv-text p {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 1.5rem;
 }
 .cv-img-container {
   width: 100%;

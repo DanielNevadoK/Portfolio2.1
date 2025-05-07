@@ -128,7 +128,9 @@ function Resume() {
                   biggest strength. For nearly a decade, I worked as a traffic
                   manager in Stockholm’s metro, where I learned how to stay
                   sharp under pressure, solve problems fast, and communicate
-                  when it matters most. At the same time, I was developing
+                  when it matters most. 
+                  <br /><br />
+                  At the same time, I was developing
                   another skill, storytelling through acting. It’s taken me onto
                   sets, taught me how to understand people deeply, and it still
                   shapes how I design and build today. Now, as a frontend
@@ -136,6 +138,7 @@ function Resume() {
                   interfaces that actually feel intuitive. I’ve worked closely
                   with backend teams, marketers, and CEOs, building scalable
                   apps, improving UX flows, and always thinking one step ahead.
+                  <br /><br />
                   Outside of code, I competed in Brazilian Jiu-Jitsu, where I
                   train focus and adaptability daily, two skills I bring into
                   every line of code I write. I’m not just here to build
