@@ -519,6 +519,12 @@ a {
 }
 
 @media (max-width: 768px) {
+  .header{
+    justify-content: space-between;
+  }
+  .left-side-space{
+    width: 3%;
+  }
   #landing-page {
     max-width: 768px;
     height: 100svh;

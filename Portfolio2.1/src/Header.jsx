@@ -26,7 +26,7 @@ function Header() {
    z-50
    `}
     >
-      <div className="w-[33%] max-h-9 flex justify-start content-center">
+      <div className="left-side-space w-[33%] max-h-9 flex justify-start content-center">
       </div>
       <div className="w-[33%] max-h-9 flex justify-center content-center">
         <a href="https://frontenddani.vercel.app/">
