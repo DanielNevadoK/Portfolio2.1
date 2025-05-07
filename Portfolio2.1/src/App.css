@@ -393,7 +393,7 @@ a {
 }
 @media (max-width:1366px) {
   #landing-page {
-    height: 100vh;
+    height: auto;
     max-width: 100%;
   }
 
