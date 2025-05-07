@@ -409,6 +409,7 @@ a {
   }
   .moving-txt-container{
     margin-top: auto;
+    height: auto;
   }
   .project-title h2 {
     font-size: 7vw;
