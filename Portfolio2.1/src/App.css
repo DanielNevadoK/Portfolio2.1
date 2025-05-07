@@ -546,7 +546,7 @@ a {
   }
 
   .moving-txt-container{
-    margin-top: 10%;
+    margin-top: 0;
   }
   .left-txt-animation, .right-txt-animation{
     font-size: 5rem;
