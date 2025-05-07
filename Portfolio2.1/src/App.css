@@ -562,7 +562,7 @@ a {
   #project-section1 {
     width: 100%;
     max-height: 100svh;
-    gap: 2rem;
+    gap: 0;
   }
   .mini-title1 {
     font-size: 8vw;
@@ -732,6 +732,18 @@ a {
     margin-top: 60%;     
   }
 
+  .project-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  #project-section1 {
+    width: 100%;
+    max-height: 100svh;
+  }
+  .project-card{
+    width: 100%;
+    height: auto;
+  }
   .moving-txt-container{
     margin-top: 20%;
   }
@@ -769,6 +781,7 @@ a {
   .contact-title {
     font-size: 17vw;
   }
+ 
   .resume-title h2 {
     font-size: 10vw;
     letter-spacing: 0px;
