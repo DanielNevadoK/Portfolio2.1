@@ -394,7 +394,7 @@ a {
 @media (max-width:1366px) {
   #landing-page {
     height: auto;
-    max-width: 1024px;
+    max-width: 100%;
   }
 
   .landing-page-pic {
