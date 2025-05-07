@@ -407,7 +407,7 @@ a {
     font-size: 3rem;
     margin-top: 10%;     
   }
-  .moving-txt-container{
+  .job-title-lp{
     margin-top: auto;
     height: auto;
   }
@@ -546,7 +546,7 @@ a {
     margin-top: 20%;     
   }
 
-  .moving-txt-container{
+  .job-title-lp{
     margin-top: 20%;
   }
   .left-txt-animation, .right-txt-animation{
@@ -737,7 +737,7 @@ a {
     width: 100%;
     height: auto;
   }
-  .moving-txt-container{
+  .job-title-lp{
     margin-top: 20%;
   }
   .left-txt-animation, .right-txt-animation{
