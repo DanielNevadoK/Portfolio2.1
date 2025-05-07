@@ -549,9 +549,14 @@ a {
   .job-title-lp{
     margin-top: 20%;
   }
-  .left-txt-animation, .right-txt-animation{
+  .job-title-lp > div.overflow-hidden:first-child {
+  /* this is “right” line */
     font-size: 5rem;
   }
+  .job-title-lp > div.overflow-hidden:last-child {
+    /* this is “left” line */
+      font-size: 5rem;
+    }
   .page-title {
     font-size: 27vw;
     top: 28%;
@@ -740,9 +745,14 @@ a {
   .job-title-lp{
     margin-top: 20%;
   }
-  .left-txt-animation, .right-txt-animation{
+  .job-title-lp > div.overflow-hidden:first-child {
+  /* this is “right” line */
     font-size: 5rem;
   }
+  .job-title-lp > div.overflow-hidden:last-child {
+    /* this is “left” line */
+      font-size: 5rem;
+    }
   .btn-container {
     gap: 1rem;
   }
